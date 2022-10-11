@@ -1,0 +1,5 @@
+require("base.common.Common")
+require("base.common.LogCommon")
+require("base.common.Global")
+require("base.common.Define")
+require("base.common.PacketDefine")

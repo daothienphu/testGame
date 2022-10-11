@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="g2033_vf_app_activity.png" nativeVertRes="434" version="2" name="g2033_vf_app_activity" nativeHorzRes="1213">
+      <Image height="271" width="346" yPos="145" name="img_0_activity02" xPos="353"/>
+    <Image height="24" width="34" yPos="1" name="btn_0_close" xPos="1"/>
+    <Image height="288" width="512" yPos="145" name="img_0_congratulations_bg" xPos="700"/>
+    <Image height="84" width="288" yPos="1" name="btn_0_common01" xPos="36"/>
+    <Image height="155" width="351" yPos="145" name="img_0_activity01" xPos="1"/>
+    <Image height="143" width="885" yPos="1" name="img_0_congratulations02" xPos="325"/>
+</Imageset>

@@ -1,0 +1,37 @@
+<ActorTemplates>
+	<ActorTemplate SoundName2="" MinDistance="1" Originalscale="1 1 1" SoundFileNum="0" Alpha="1" Skeleton="asset/Actor/g2043_pet_30101/g2043_pet_30101.skel" IsShowShadow="true" WoundBone="" IntervalTime="2" TextHeight="0" SoundName1="" MaxDistance="16" Volume="0.8" SoundName4="" SoundName5="" AttackScale="1" SoundName3="" SelectedRingSize="1" name="111.actor" WoundAngle="25">
+		<BodyParts>
+			<BodyPart SlaveName="group0" MasterName="mutex_name0" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin UVSpeed="0 0" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" type_name="g2043_pet_30101" LocalAlpha="1" UseBloom="false" OverlayColor="1.0 1.0 1.0 1.0" EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" LocalBrightnessScale="1.0" MeshName="asset/Actor/g2043_pet_30101/g2043_pet_30101.skin" SpecularCoef="0.15" UseReflect="false" SpecularColor="1.0 1.0 1.0 1.0" UseEdge="false" UseTransparentNearestSlice="false" SpecularStrength="1.0" UseOriginalcolor="false"/>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="hurt" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_hit.anim" TimeScale="1" Times="1" FadeTime="0.050000001" Length="0.60000002" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_run.anim" TimeScale="1" Times="-1" FadeTime="0.050000001" Length="1.0333333" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill Name="attack1" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_attack1.anim" TimeScale="1" Times="1" FadeTime="0.050000001" Length="1.4666667" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_attack2.anim" TimeScale="1" Times="1" FadeTime="0.050000001" Length="1.4666667" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill Name="show" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_show.anim" TimeScale="1" Times="1" FadeTime="0.050000001" Length="2.7" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_idle.anim" TimeScale="1" Times="-1" FadeTime="0.050000001" Length="1.0333333" Channel="upper" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_hit.anim"/>
+			<Anim Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_attack1.anim"/>
+			<Anim Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_idle.anim"/>
+			<Anim Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_show.anim"/>
+			<Anim Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_attack2.anim"/>
+			<Anim Name="asset/Actor/g2043_pet_30101/g2043_pet_30101_run.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

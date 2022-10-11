@@ -1,0 +1,160 @@
+{
+    "frames": {
+        "boss_ic6": {
+            "frame": {
+                "y": 78, 
+                "x": 157, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic7": {
+            "frame": {
+                "y": 155, 
+                "x": 1, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic4": {
+            "frame": {
+                "y": 78, 
+                "x": 1, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic5": {
+            "frame": {
+                "y": 78, 
+                "x": 79, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic2": {
+            "frame": {
+                "y": 1, 
+                "x": 79, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic3": {
+            "frame": {
+                "y": 1, 
+                "x": 157, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic1": {
+            "frame": {
+                "y": 1, 
+                "x": 1, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }, 
+        "boss_ic8": {
+            "frame": {
+                "y": 155, 
+                "x": 79, 
+                "w": 77, 
+                "h": 76
+            }, 
+            "sourceSize": {
+                "h": 76, 
+                "w": 77
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 77, 
+                "h": 76
+            }
+        }
+    }, 
+    "meta": {
+        "scale": "1", 
+        "format": "RGBA8888", 
+        "app": "https://www.codeandweb.com/texturepacker", 
+        "version": "1.0", 
+        "type": "frame", 
+        "image": "simulator_boss_icon.png",
+        "size": {
+            "h": 232, 
+            "w": 235
+        }
+    }
+}

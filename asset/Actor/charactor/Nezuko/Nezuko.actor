@@ -1,0 +1,163 @@
+<ActorTemplates>
+	<ActorTemplate WoundBone="" TextHeight="0" SoundName3="" Volume="0.8" IntervalTime="2" name="111.actor" SelectedRingSize="1" SoundName5="" SoundFileNum="0" IsShowShadow="true" Alpha="1" Skeleton="boy_01.skel" MaxDistance="16" MinDistance="1" SoundName1="" AttackScale="1" SoundName2="" SoundName4="" WoundAngle="25" Originalscale="1 1 1">
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="default_pants" MasterName="pants" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin LocalBrightnessScale="1.0" DiscardAlpha="0.01" LocalAlpha="1" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UseOriginalcolor="false" UseEdge="false" UVSpeed="0 0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" OverlayColor="1 1 1 1" UseTransparentNearestSlice="false" EdgeColor="1.0 0 0 1.0" type_name="tanjiro_trouser" UseBloom="false" MeshName="asset/Actor/charactor/Prefab/Trousers/nezuko_trouser.skin"/>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="default_clothes" MasterName="clothes" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin LocalBrightnessScale="1" DiscardAlpha="1" LocalAlpha="1" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UseOriginalcolor="false" UseEdge="false" UVSpeed="0 0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" OverlayColor="1.0 1.0 1.0 1.0" UseTransparentNearestSlice="false" EdgeColor="1.0 0 0 1.0" type_name="tanjiro_trunk" UseBloom="false" MeshName="asset/Actor/charactor/Prefab/Trunk/nezuko_coat.skin"/>
+				<Skin LocalBrightnessScale="1.0" DiscardAlpha="0.01" LocalAlpha="1" SpecularCoef="0.15" SpecularColor="1.0 1.0 1.0 1.0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UseOriginalcolor="false" UseEdge="false" UVSpeed="0 0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" OverlayColor="1 1 1 1" UseTransparentNearestSlice="false" EdgeColor="1.0 0 0 1.0" type_name="nezuko_trunk" UseBloom="false" MeshName="asset/Actor/charactor/Prefab/Trunk/nezuko_trunk.skin"/>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="default_face" MasterName="face" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" type_name="tanjiro_face" DiscardAlpha="0">
+					<pitch value="0"/>
+					<UseBloom value="false"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Actor/charactor/Prefab/Face/nezuko_face.mesh"/>
+					<SocketName value="s_head"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<yaw value="0"/>
+					<UseReflect value="false"/>
+					<UseOriginalcolor value="false"/>
+					<scale value="1"/>
+					<Position_X value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularStrength value="1.0"/>
+					<roll value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<Position_Y value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseEdge value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="default_hair" MasterName="hair" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" type_name="02_hair_boy" DiscardAlpha="0">
+					<pitch value="0"/>
+					<UseBloom value="false"/>
+					<Position_Z value="0"/>
+					<FileName value="asset/Actor/charactor/Prefab/Hair/nezuko_hair.mesh"/>
+					<SocketName value="s_head"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<yaw value="0"/>
+					<UseReflect value="false"/>
+					<UseOriginalcolor value="false"/>
+					<scale value="1"/>
+					<Position_X value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<SpecularStrength value="1.0"/>
+					<roll value="0"/>
+					<OverlayColor value="0.98 1.0 0.92 1.0"/>
+					<Position_Y value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseEdge value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/hurt2.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/idle.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/victory_dance.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_c.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/taunt_pointing.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/hurt.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_front.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/attack_fly_point.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/back_run.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/attack_sword_splash.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/walk_girl.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_b.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_a.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand04.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim"/>
+		</Anims>
+		<Skills>
+			<Skill TextMode="0" Name="attack" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0" Channel="upper" BeginTime="0" Name="asset/Actor/charactor/Prefab/Animation/attack_sword_splash.anim" Times="1" Length="0.833"/>
+			</Skill>
+			<Skill TextMode="0" Name="idle" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.2" Channel="lower" BeginTime="0" Name="asset/Actor/charactor/Prefab/Animation/idle.anim" Times="-1" Length="10.033"/>
+			</Skill>
+			<Skill TextMode="0" Name="jump1" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.05" Channel="lower" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_a.anim" Times="1" Length="0.233"/>
+			</Skill>
+			<Skill TextMode="0" Name="jump2" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.05" Channel="lower" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_b.anim" Times="-1" Length="0.433"/>
+			</Skill>
+			<Skill TextMode="0" Name="jump3" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.05" Channel="lower" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_c.anim" Times="1" Length="0.5"/>
+			</Skill>
+			<Skill TextMode="0" Name="sneak" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.05" Channel="lower" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand04.anim" Times="-1" Length="1.1"/>
+			</Skill>
+			<Skill TextMode="0" Name="run" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0" Channel="lower" BeginTime="0" Name="asset/Actor/charactor/Prefab/Animation/walk_girl.anim" Times="-1" Length="0.633"/>
+			</Skill>
+			<Skill TextMode="0" Name="back_run" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.05" Channel="" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/back_run.anim" Times="-1" Length="0.633"/>
+			</Skill>
+			<Skill TextMode="0" Name="die_back" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.25" Channel="" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim" Times="1" Length="0.833"/>
+			</Skill>
+			<Skill TextMode="0" Name="die_front" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.25" Channel="" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/die_front.anim" Times="1" Length="0.733"/>
+			</Skill>
+			<Skill TextMode="0" Name="hurt2" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.25" Channel="" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/hurt.anim" Times="1" Length="0.533"/>
+			</Skill>
+			<Skill TextMode="0" Name="hurt" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.25" Channel="" BeginTime="0" Name="asset/Actor/charactor/charactor_boy/anim/hurt2.anim" Times="1" Length="0.533"/>
+			</Skill>
+			<Skill TextMode="0" Name="comboAttack2" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1.5" FadeTime="0" Channel="" BeginTime="0" Name="asset/Actor/charactor/Prefab/Animation/attack_fly_point.anim" Times="1" Length="4.166"/>
+				<Effect>
+					<scale value="0.6"/>
+					<Position_X value="0"/>
+					<type_name value="FireBlast"/>
+					<TimeScale value="0.8"/>
+					<BeginTime value="0.65086956521739"/>
+					<FileName value="asset/Effect/FireForm/FireBlast.effect"/>
+					<Alpha value="1"/>
+					<SocketName value="Origin197011"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.5"/>
+					<yaw value="0"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<FollowActor value="true"/>
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+				</Effect>
+				<Effect>
+					<scale value="0.4"/>
+					<Position_X value="0"/>
+					<type_name value="FireBlast"/>
+					<TimeScale value="1"/>
+					<BeginTime value="1.395652173913"/>
+					<FileName value="asset/Effect/FireForm/FireBlast.effect"/>
+					<Alpha value="1"/>
+					<SocketName value="s_hand_l"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<FollowActor value="true"/>
+					<pitch value="-90"/>
+					<Position_Z value="0.5"/>
+				</Effect>
+			</Skill>
+			<Skill TextMode="0" Name="taunt_pointing" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.25" Channel="" BeginTime="0" Name="asset/Actor/charactor/Prefab/Animation/taunt_pointing.anim" Times="1" Length="3.7"/>
+			</Skill>
+			<Skill TextMode="0" Name="victory_dance" EnableWound="false" UserDefineTime="-2">
+				<Animation TimeScale="1" FadeTime="0.25" Channel="" BeginTime="0" Name="asset/Actor/charactor/Prefab/Animation/victory_dance.anim" Times="1" Length="5.033"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

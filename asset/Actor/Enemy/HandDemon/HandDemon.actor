@@ -1,0 +1,17 @@
+<ActorTemplates>
+	<ActorTemplate IntervalTime="2" AttackScale="1" name="111.actor" MinDistance="1" SoundName2="" SoundName4="" MaxDistance="16" Originalscale="3 3 3" SoundName1="" TextHeight="0" SoundName3="" IsShowShadow="true" WoundBone="" Volume="0.8" Alpha="1" WoundAngle="25" Skeleton="SK_HandDemon.skel" SoundName5="" SoundFileNum="0" SelectedRingSize="1">
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/HandDemon/anim/Attack1.anim" Length="2" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="-1"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="body" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" UVSpeed="0 0" UseTransparentNearestSlice="false" MeshName="asset/Actor/HandDemon/skin/Hand_Demon.skin" UseBloom="false" UseReflect="false" UseEdge="false" EdgeColor="1.0 0 0 1.0" type_name="Hand_Demon" LocalBrightnessScale="1.0" DiscardAlpha="0" OverlayColor="1.0 1.0 1.0 1.0" LocalAlpha="1" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" SpecularStrength="1.0"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/HandDemon/anim/Attack1.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_equip.png" nativeVertRes="371" version="2" name="simulator_equip" nativeHorzRes="499">
+      <Image height="38" width="30" yPos="57" name="lv_bg" xPos="85"/>
+    <Image height="52" width="153" yPos="180" name="btn_sell" xPos="154"/>
+    <Image height="98" width="98" yPos="266" name="cur_agility" xPos="0"/>
+    <Image height="98" width="98" yPos="266" name="cur_hp" xPos="99"/>
+    <Image height="22" width="48" yPos="0" name="link" xPos="21"/>
+    <Image height="98" width="98" yPos="266" name="cur_speed" xPos="198"/>
+    <Image height="30" width="36" yPos="25" name="title_bg" xPos="392"/>
+    <Image height="52" width="153" yPos="180" name="btn_equip" xPos="0"/>
+    <Image height="42" width="456" yPos="137" name="tabs" xPos="0"/>
+    <Image height="24" width="120" yPos="0" name="star3" xPos="273"/>
+    <Image height="20" width="20" yPos="0" name="attr" xPos="0"/>
+    <Image height="31" width="69" yPos="25" name="attr_bg" xPos="429"/>
+    <Image height="24" width="120" yPos="25" name="star5" xPos="242"/>
+    <Image height="85" width="85" yPos="180" name="add" xPos="414"/>
+    <Image height="33" width="84" yPos="57" name="star_bg" xPos="0"/>
+    <Image height="38" width="113" yPos="96" name="agility_sel" xPos="0"/>
+    <Image height="29" width="28" yPos="25" name="score" xPos="363"/>
+    <Image height="40" width="24" yPos="96" name="equiped_tag" xPos="114"/>
+    <Image height="105" width="85" yPos="266" name="item_bg" xPos="396"/>
+    <Image height="38" width="113" yPos="57" name="speed_sel" xPos="116"/>
+    <Image height="24" width="120" yPos="0" name="star1" xPos="70"/>
+    <Image height="24" width="120" yPos="25" name="star2" xPos="0"/>
+    <Image height="38" width="113" yPos="57" name="hp_sel" xPos="230"/>
+    <Image height="98" width="98" yPos="266" name="cur_atk" xPos="297"/>
+    <Image height="56" width="105" yPos="180" name="fight_bg" xPos="308"/>
+    <Image height="24" width="120" yPos="25" name="star4" xPos="121"/>
+    <Image height="24" width="81" yPos="0" name="equiped_tip" xPos="191"/>
+    <Image height="38" width="113" yPos="57" name="atk_sel" xPos="344"/>
+</Imageset>

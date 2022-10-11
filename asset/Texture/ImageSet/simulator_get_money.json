@@ -1,0 +1,142 @@
+{
+    "frames": {
+        "equip2": {
+            "frame": {
+                "y": 65, 
+                "x": 1, 
+                "w": 56, 
+                "h": 50
+            }, 
+            "sourceSize": {
+                "h": 50, 
+                "w": 56
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 56, 
+                "h": 50
+            }
+        }, 
+        "equip3": {
+            "frame": {
+                "y": 65, 
+                "x": 58, 
+                "w": 56, 
+                "h": 50
+            }, 
+            "sourceSize": {
+                "h": 50, 
+                "w": 56
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 56, 
+                "h": 50
+            }
+        }, 
+        "equip1": {
+            "frame": {
+                "y": 1, 
+                "x": 162, 
+                "w": 56, 
+                "h": 50
+            }, 
+            "sourceSize": {
+                "h": 50, 
+                "w": 56
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 56, 
+                "h": 50
+            }
+        }, 
+        "gold": {
+            "frame": {
+                "y": 65, 
+                "x": 172, 
+                "w": 47, 
+                "h": 50
+            }, 
+            "sourceSize": {
+                "h": 50, 
+                "w": 47
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 47, 
+                "h": 50
+            }
+        }, 
+        "equip4": {
+            "frame": {
+                "y": 65, 
+                "x": 115, 
+                "w": 56, 
+                "h": 50
+            }, 
+            "sourceSize": {
+                "h": 50, 
+                "w": 56
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 56, 
+                "h": 50
+            }
+        }, 
+        "btn_confirm": {
+            "frame": {
+                "y": 1, 
+                "x": 1, 
+                "w": 143, 
+                "h": 63
+            }, 
+            "sourceSize": {
+                "h": 63, 
+                "w": 143
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 143, 
+                "h": 63
+            }
+        }, 
+        "content": {
+            "frame": {
+                "y": 1, 
+                "x": 145, 
+                "w": 16, 
+                "h": 16
+            }, 
+            "sourceSize": {
+                "h": 16, 
+                "w": 16
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 16, 
+                "h": 16
+            }
+        }
+    }, 
+    "meta": {
+        "scale": "1", 
+        "format": "RGBA8888", 
+        "app": "https://www.codeandweb.com/texturepacker", 
+        "version": "1.0", 
+        "type": "frame", 
+        "image": "simulator_get_money.png", 
+        "size": {
+            "h": 116, 
+            "w": 220
+        }
+    }
+}

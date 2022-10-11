@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="dailyGift.png" nativeVertRes="638" version="2" name="dailyGift" nativeHorzRes="944">
+      <Image height="98" width="532" yPos="490" name="title_bg" xPos="90"/>
+    <Image height="147" width="88" yPos="490" name="list_bg" xPos="1"/>
+    <Image height="488" width="942" yPos="1" name="bg" xPos="1"/>
+</Imageset>

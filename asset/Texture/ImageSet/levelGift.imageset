@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="levelGift.png" nativeVertRes="790" version="2" name="levelGift" nativeHorzRes="966">
+      <Image height="22" width="22" yPos="1" name="g2020_icon_atk" xPos="1"/>
+    <Image height="22" width="22" yPos="1" name="g2020_icon_jump" xPos="23"/>
+    <Image height="150" width="150" yPos="151" name="g2020_packet_ninja" xPos="601"/>
+    <Image height="98" width="385" yPos="1" name="g2020_icon_title" xPos="314"/>
+    <Image height="22" width="22" yPos="1" name="g2020_icon_spd" xPos="67"/>
+    <Image height="488" width="964" yPos="301" name="g2020_bg_levelgift" xPos="1"/>
+    <Image height="150" width="150" yPos="151" name="g2020_packet_jojo2" xPos="451"/>
+    <Image height="150" width="150" yPos="151" name="g2020_packet_jojo1" xPos="301"/>
+    <Image height="150" width="150" yPos="151" name="g2020_packet_hero_2" xPos="151"/>
+    <Image height="150" width="150" yPos="151" name="g2020_packet_hero" xPos="1"/>
+    <Image height="150" width="150" yPos="1" name="g2020_packet_ball" xPos="787"/>
+    <Image height="147" width="88" yPos="1" name="g2020_bg_list" xPos="699"/>
+    <Image height="88" width="104" yPos="1" name="g2020_levelgift_coin" xPos="210"/>
+    <Image height="29" width="26" yPos="1" name="g2020_bg_icon" xPos="89"/>
+    <Image height="22" width="22" yPos="1" name="g2020_icon_life" xPos="45"/>
+    <Image height="75" width="95" yPos="1" name="icon_level_gift" xPos="115"/>
+</Imageset>

@@ -1,0 +1,158 @@
+{
+    "frames": {
+        "cancel_blue": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 57,
+                "h": 56
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 56
+            }
+        },
+        "cancle_red": {
+            "frame": {
+                "x": 59,
+                "y": 1,
+                "w": 84,
+                "h": 83
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 83
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 83
+            }
+        },
+        "count_bg": {
+            "frame": {
+                "x": 144,
+                "y": 1,
+                "w": 22,
+                "h": 21
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 22,
+                "h": 21
+            },
+            "sourceSize": {
+                "w": 22,
+                "h": 21
+            }
+        },
+        "recharge_process": {
+            "frame": {
+                "x": 167,
+                "y": 1,
+                "w": 210,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 210,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 210,
+                "h": 210
+            }
+        },
+        "touch_cell_bg_blue": {
+            "frame": {
+                "x": 1,
+                "y": 212,
+                "w": 166,
+                "h": 166
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 166,
+                "h": 166
+            },
+            "sourceSize": {
+                "w": 166,
+                "h": 166
+            }
+        },
+        "touch_cell_bg_red": {
+            "frame": {
+                "x": 168,
+                "y": 212,
+                "w": 166,
+                "h": 166
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 166,
+                "h": 166
+            },
+            "sourceSize": {
+                "w": 166,
+                "h": 166
+            }
+        },
+        "touch_cell_blue": {
+            "frame": {
+                "x": 1,
+                "y": 379,
+                "w": 116,
+                "h": 116
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 116,
+                "h": 116
+            },
+            "sourceSize": {
+                "w": 116,
+                "h": 116
+            }
+        },
+        "touch_cell_red": {
+            "frame": {
+                "x": 118,
+                "y": 379,
+                "w": 116,
+                "h": 116
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 116,
+                "h": 116
+            },
+            "sourceSize": {
+                "w": 116,
+                "h": 116
+            }
+        }
+    },
+    "meta": {
+        "image": "simulator_skill.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 378,
+            "h": 496
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

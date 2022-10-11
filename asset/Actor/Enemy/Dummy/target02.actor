@@ -1,0 +1,17 @@
+<ActorTemplates>
+	<ActorTemplate IntervalTime="2" IsShowShadow="true" Alpha="1" SoundName4="" MaxDistance="16" AttackScale="1" SoundFileNum="0" WoundBone="" SoundName1="" TextHeight="0" Skeleton="target02.skel" SoundName2="" SelectedRingSize="1" WoundAngle="25" name="111.actor" Volume="0.8" SoundName5="" SoundName3="" MinDistance="1" Originalscale="1 1 1">
+		<Anims>
+			<Anim Name="target02_walk01.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" TextMode="0" UserDefineTime="-2">
+				<Animation Name="target02_walk01.anim" Times="-1" FadeTime="0.25" Length="0.7" TimeScale="1" Channel="" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart SlaveName="1" MasterName="body" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName="target02.skin" OverlayColor="1.0 1.0 1.0 1.0" UseTransparentNearestSlice="false" type_name="target02" UseEdge="false" UseBloom="false" LocalBrightnessScale="1.0" UVSpeed="0 0" DiscardAlpha="0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" EdgeColor="1.0 0 0 1.0" UseOverlayColorReplaceMode="false" UseReflect="false" LocalAlpha="1" SpecularColor="1.0 1.0 1.0 1.0" SpecularStrength="1.0" UseOriginalcolor="false" SpecularCoef="0.15"/>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

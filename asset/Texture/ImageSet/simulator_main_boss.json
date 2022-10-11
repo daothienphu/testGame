@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "boss_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 256,
+                "h": 256
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 256,
+                "h": 256
+            },
+            "sourceSize": {
+                "w": 256,
+                "h": 256
+            }
+        },
+        "boss_text": {
+            "frame": {
+                "x": 1,
+                "y": 258,
+                "w": 513,
+                "h": 91
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 513,
+                "h": 91
+            },
+            "sourceSize": {
+                "w": 513,
+                "h": 91
+            }
+        },
+        "boss_title": {
+            "frame": {
+                "x": 258,
+                "y": 1,
+                "w": 512,
+                "h": 144
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 144
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 144
+            }
+        }
+    },
+    "meta": {
+        "image": "simulator_main_boss.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 771,
+            "h": 350
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

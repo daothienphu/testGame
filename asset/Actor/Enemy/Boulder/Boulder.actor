@@ -1,0 +1,33 @@
+<ActorTemplates>
+	<ActorTemplate Volume="0.8" Alpha="1" WoundBone="" TextHeight="0" SoundName2="" SoundName1="" WoundAngle="25" Originalscale="1.5 1.5 1.5" name="111.actor" SelectedRingSize="1" IntervalTime="2" SoundName4="" Skeleton="bone001.skel" SoundName5="" IsShowShadow="true" SoundName3="" SoundFileNum="0" MaxDistance="16" MinDistance="1" AttackScale="1">
+		<Skills/>
+		<BodyParts>
+			<BodyPart DefaultUse="true" MasterName="mutex_name_0" ColorParams="1 1 1 1" SlaveName="group0" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="g2038_rock_3">
+					<LocalBrightnessScale value="0.73"/>
+					<Position_Y value="2.89"/>
+					<UseBloom value="false"/>
+					<SpecularCoef value="0.15"/>
+					<FileName value="asset/Mesh/Props/g2038_rock_3.mesh"/>
+					<roll value="-90"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="Origin197011"/>
+					<UseReflect value="false"/>
+					<SpecularStrength value="1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<Position_X value="-2.3199999332428"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseOriginalcolor value="false"/>
+					<scale value="3"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

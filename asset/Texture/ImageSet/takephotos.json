@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "close_camera": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 66,
+                "h": 69
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 66,
+                "h": 69
+            },
+            "sourceSize": {
+                "w": 66,
+                "h": 69
+            }
+        },
+        "close_camera_photos": {
+            "frame": {
+                "x": 68,
+                "y": 1,
+                "w": 138,
+                "h": 133
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 133
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 133
+            }
+        }
+    },
+    "meta": {
+        "image": "takephotos.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 207,
+            "h": 135
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,259 @@
+<ActorTemplates>
+	<ActorTemplate IntervalTime="2" AttackScale="1" name="111.actor" MinDistance="1" SoundName2="" SoundName4="" MaxDistance="16" Originalscale="1 1 1" SoundName1="" TextHeight="0" SoundName3="" IsShowShadow="true" WoundBone="" Volume="0.8" Alpha="1" WoundAngle="25" Skeleton="boy_01.skel" SoundName5="" SoundFileNum="0" SelectedRingSize="1">
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Effect>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Hit/swordTrailNormal.effect"/>
+					<scale value="3"/>
+					<pitch value="40"/>
+					<SocketName value="bip01"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0.2"/>
+					<BeginTime value="0.27534782608695"/>
+					<Position_X value="0.8"/>
+					<FollowActor value="true"/>
+					<type_name value="swordTrailWhite"/>
+				</Effect>
+				<Animation Name="asset/Actor/charactor/Prefab/Animation/attack_sword_splash.anim" Length="0.833" TimeScale="1" BeginTime="0" Channel="upper" FadeTime="0" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/Prefab/Animation/sword_hold_idle.anim" Length="1.366" TimeScale="1" BeginTime="0" Channel="lower" FadeTime="0.2" Times="-1"/>
+			</Skill>
+			<Skill Name="jump1" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_a.anim" Length="0.233" TimeScale="1" BeginTime="0" Channel="lower" FadeTime="0.05" Times="1"/>
+			</Skill>
+			<Skill Name="jump2" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_b.anim" Length="0.433" TimeScale="1" BeginTime="0" Channel="lower" FadeTime="0.05" Times="-1"/>
+			</Skill>
+			<Skill Name="jump3" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_c.anim" Length="0.5" TimeScale="1" BeginTime="0" Channel="lower" FadeTime="0.05" Times="1"/>
+			</Skill>
+			<Skill Name="sneak" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/boy_stand04.anim" Length="1.1" TimeScale="1" BeginTime="0" Channel="lower" FadeTime="0.05" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/Prefab/Animation/run_with_sword.anim" Length="0.833" TimeScale="1.5" BeginTime="0" Channel="lower" FadeTime="0" Times="-1"/>
+			</Skill>
+			<Skill Name="back_run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/back_run.anim" Length="0.633" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.05" Times="-1"/>
+			</Skill>
+			<Skill Name="die_back" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim" Length="0.833" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+			<Skill Name="die_front" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/die_front.anim" Length="0.733" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+			<Skill Name="hurt2" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/hurt.anim" Length="0.533" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/charactor_boy/anim/hurt2.anim" Length="0.533" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+			<Skill Name="comboAttack2" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Effect>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Hit/swordTrailGold.effect"/>
+					<scale value="4"/>
+					<pitch value="90"/>
+					<SocketName value="bip01"/>
+					<TimeScale value="2"/>
+					<Alpha value="1"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0.3"/>
+					<BeginTime value="0.254"/>
+					<Position_X value="0.8"/>
+					<FollowActor value="true"/>
+					<type_name value="swordTrailNormal"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Hit/swordTrailGold.effect"/>
+					<scale value="4"/>
+					<pitch value="-60"/>
+					<SocketName value="bip01"/>
+					<TimeScale value="2"/>
+					<Alpha value="1"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0.3"/>
+					<BeginTime value="0.51"/>
+					<Position_X value="0.8"/>
+					<FollowActor value="true"/>
+					<type_name value="swordTrailNormal"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Hit/swordTrailGold.effect"/>
+					<scale value="4"/>
+					<pitch value="120"/>
+					<SocketName value="bip01"/>
+					<TimeScale value="2"/>
+					<Alpha value="1"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0.3"/>
+					<BeginTime value="0.87"/>
+					<Position_X value="0.8"/>
+					<FollowActor value="true"/>
+					<type_name value="swordTrailNormal"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Hit/swordTrailGold.effect"/>
+					<scale value="4"/>
+					<pitch value="40"/>
+					<SocketName value="bip01"/>
+					<TimeScale value="2"/>
+					<Alpha value="1"/>
+					<Times value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0.3"/>
+					<BeginTime value="1.6313043478261"/>
+					<Position_X value="0.8"/>
+					<FollowActor value="true"/>
+					<type_name value="swordTrailNormal"/>
+				</Effect>
+				<Effect>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Hit/swordTrailGold.effect"/>
+					<scale value="4"/>
+					<pitch value="30"/>
+					<SocketName value="bip01"/>
+					<TimeScale value="2"/>
+					<Alpha value="1"/>
+					<Times value="1"/>
+					<roll value="-90"/>
+					<yaw value="90"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0.3"/>
+					<BeginTime value="1.86"/>
+					<Position_X value="0.8"/>
+					<FollowActor value="true"/>
+					<type_name value="swordTrailNormal"/>
+				</Effect>
+				<Animation Name="asset/Actor/charactor/Prefab/Animation/Wind breathing.anim" Length="2.333" TimeScale="0.7" BeginTime="0" Channel="" FadeTime="0" Times="1"/>
+			</Skill>
+			<Skill Name="taunt_pointing" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/Prefab/Animation/taunt_pointing.anim" Length="3.7" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+			<Skill Name="victory_dance" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Actor/charactor/Prefab/Animation/victory_dance.anim" Length="5.033" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart MasterName="pants" SlaveName="default_pants" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" UVSpeed="0 0" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/Prefab/Trousers/murata_trouser.skin" UseBloom="false" UseReflect="false" UseEdge="false" EdgeColor="1.0 0 0 1.0" type_name="tanjiro_trouser" LocalBrightnessScale="1.0" DiscardAlpha="0" OverlayColor="1 1 1 1" LocalAlpha="1" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" SpecularStrength="1.0"/>
+			</BodyPart>
+			<BodyPart MasterName="clothes" SlaveName="default_clothes" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" UVSpeed="0 0" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/Prefab/Trunk/murata_trunk.skin" UseBloom="false" UseReflect="false" UseEdge="false" EdgeColor="1.0 0 0 1.0" type_name="tanjiro_trunk" LocalBrightnessScale="1" DiscardAlpha="0" OverlayColor="1.0 1.0 1.0 1.0" LocalAlpha="1" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" SpecularStrength="1.0"/>
+			</BodyPart>
+			<BodyPart MasterName="face" SlaveName="default_face" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="tanjiro_face">
+					<FileName value="asset/Actor/charactor/Prefab/Face/murata_face.mesh"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<SocketName value="s_head"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<UseEdge value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<Position_Z value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="hair" SlaveName="default_hair" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="02_hair_boy">
+					<FileName value="asset/Actor/charactor/Prefab/Hair/02_hair_boy.mesh"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<SocketName value="s_head"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<yaw value="0"/>
+					<Position_Y value="0"/>
+					<UseEdge value="false"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<OverlayColor value="0 0 0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<Position_Z value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart MasterName="sword" SlaveName="Sword" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2021_weapon_22">
+					<FileName value="asset/Actor/charactor/Prefab/Weapon/g2030_weapon_5_5_3.mesh"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<SocketName value="s_hand_r"/>
+					<UseBloom value="false"/>
+					<UseReflect value="false"/>
+					<yaw value="90"/>
+					<Position_Y value="0"/>
+					<UseEdge value="false"/>
+					<roll value="90"/>
+					<scale value="1.5"/>
+					<pitch value="180"/>
+					<LocalBrightnessScale value="1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<Position_Z value="0.25"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/run_with_sword.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/taunt_pointing.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/hurt.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_c.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_a.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/Wind breathing.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/victory_dance.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/hurt2.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/back_run.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand04.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_front.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_b.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/attack_sword_splash.anim"/>
+			<Anim Name="asset/Actor/charactor/Prefab/Animation/sword_hold_idle.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

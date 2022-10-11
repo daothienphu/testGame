@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_main_big.png" nativeVertRes="424" version="2" name="simulator_main_big" nativeHorzRes="595">
+      <Image height="422" width="593" yPos="1" name="common_bg" xPos="1"/>
+</Imageset>

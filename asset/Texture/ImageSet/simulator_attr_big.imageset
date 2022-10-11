@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_attr_big.png" nativeVertRes="1256" version="2" name="simulator_attr_big" nativeHorzRes="1000">
+      <Image height="323" width="199" yPos="749" name="bg_frame_weapon" xPos="1"/>
+    <Image height="451" width="201" yPos="749" name="bg_upgride" xPos="529"/>
+    <Image height="72" width="207" yPos="749" name="img_bottom" xPos="731"/>
+    <Image height="630" width="998" yPos="118" name="bg" xPos="1"/>
+    <Image height="506" width="327" yPos="749" name="bg_role" xPos="201"/>
+    <Image height="116" width="600" yPos="1" name="attr_bg" xPos="1"/>
+</Imageset>

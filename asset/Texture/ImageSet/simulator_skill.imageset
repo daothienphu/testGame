@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_skill.png" nativeVertRes="496" version="2" name="simulator_skill" nativeHorzRes="378">
+      <Image height="21" width="22" yPos="1" name="count_bg" xPos="144"/>
+    <Image height="210" width="210" yPos="1" name="recharge_process" xPos="167"/>
+    <Image height="116" width="116" yPos="379" name="touch_cell_red" xPos="118"/>
+    <Image height="166" width="166" yPos="212" name="touch_cell_bg_red" xPos="168"/>
+    <Image height="116" width="116" yPos="379" name="touch_cell_blue" xPos="1"/>
+    <Image height="166" width="166" yPos="212" name="touch_cell_bg_blue" xPos="1"/>
+    <Image height="83" width="84" yPos="1" name="cancle_red" xPos="59"/>
+    <Image height="56" width="57" yPos="1" name="cancel_blue" xPos="1"/>
+</Imageset>

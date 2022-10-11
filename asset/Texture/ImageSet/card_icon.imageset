@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="card_icon.png" nativeVertRes="256" version="2" name="card_icon" nativeHorzRes="256">
+      <Image height="84" width="84" yPos="171" name="card_ic3" xPos="1"/>
+    <Image height="84" width="84" yPos="171" name="card_ic4" xPos="86"/>
+    <Image height="84" width="84" yPos="1" name="card3" xPos="171"/>
+    <Image height="84" width="84" yPos="86" name="card4" xPos="1"/>
+    <Image height="84" width="84" yPos="86" name="card_ic1" xPos="86"/>
+    <Image height="84" width="84" yPos="1" name="card1" xPos="1"/>
+    <Image height="84" width="84" yPos="86" name="card_ic2" xPos="171"/>
+    <Image height="84" width="84" yPos="1" name="card2" xPos="86"/>
+</Imageset>

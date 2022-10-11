@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="attr_icon.png" nativeVertRes="365" version="2" name="attr_icon" nativeHorzRes="235">
+      <Image height="21" width="24" yPos="1" name="jump_s" xPos="1"/>
+    <Image height="50" width="56" yPos="110" name="speed_b" xPos="1"/>
+    <Image height="28" width="30" yPos="1" name="attack" xPos="132"/>
+    <Image height="28" width="30" yPos="30" name="move" xPos="63"/>
+    <Image height="61" width="61" yPos="223" name="hp_button_02" xPos="1"/>
+    <Image height="28" width="30" yPos="59" name="hp" xPos="1"/>
+    <Image height="50" width="47" yPos="161" name="gold_efficiency" xPos="1"/>
+    <Image height="61" width="61" yPos="161" name="fly_button" xPos="111"/>
+    <Image height="28" width="30" yPos="1" name="jump_efficiency" xPos="163"/>
+    <Image height="21" width="24" yPos="1" name="attack_s" xPos="76"/>
+    <Image height="32" width="41" yPos="59" name="power" xPos="32"/>
+    <Image height="28" width="30" yPos="1" name="jump" xPos="101"/>
+    <Image height="21" width="24" yPos="1" name="speed_s" xPos="51"/>
+    <Image height="28" width="30" yPos="30" name="move_max" xPos="32"/>
+    <Image height="21" width="24" yPos="1" name="hp_s" xPos="26"/>
+    <Image height="42" width="64" yPos="59" name="power_b" xPos="74"/>
+    <Image height="28" width="30" yPos="30" name="attack_max" xPos="156"/>
+    <Image height="50" width="56" yPos="110" name="attack_b" xPos="58"/>
+    <Image height="28" width="30" yPos="30" name="hp_max" xPos="125"/>
+    <Image height="61" width="61" yPos="161" name="hp_button_01" xPos="49"/>
+    <Image height="50" width="47" yPos="59" name="gold" xPos="139"/>
+    <Image height="28" width="30" yPos="1" name="jump_max" xPos="194"/>
+    <Image height="61" width="61" yPos="161" name="jump_button" xPos="173"/>
+    <Image height="28" width="30" yPos="30" name="attack_efficiency" xPos="187"/>
+    <Image height="50" width="56" yPos="110" name="hp_b" xPos="115"/>
+    <Image height="28" width="30" yPos="30" name="hp_efficiency" xPos="1"/>
+    <Image height="141" width="141" yPos="223" name="attack_button" xPos="63"/>
+    <Image height="50" width="56" yPos="110" name="jump_b" xPos="172"/>
+    <Image height="28" width="30" yPos="30" name="move_efficiency" xPos="94"/>
+</Imageset>

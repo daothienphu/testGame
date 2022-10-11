@@ -1,0 +1,2408 @@
+{
+    "frames": {
+        "g2033_Equip_lvgu_attack": {
+            "frame": {
+                "y": 172, 
+                "x": 1463, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_move_3": {
+            "frame": {
+                "y": 172, 
+                "x": 603, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_hongjiaodong_move": {
+            "frame": {
+                "y": 1, 
+                "x": 936, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_yiquan_move_1": {
+            "frame": {
+                "y": 172, 
+                "x": 1033, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_move_2": {
+            "frame": {
+                "y": 172, 
+                "x": 775, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_JOJO_jump": {
+            "frame": {
+                "y": 344, 
+                "x": 689, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_HP_3": {
+            "frame": {
+                "y": 258, 
+                "x": 1549, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto1_jump": {
+            "frame": {
+                "y": 344, 
+                "x": 775, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_move_4": {
+            "frame": {
+                "y": 258, 
+                "x": 1, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_move_5": {
+            "frame": {
+                "y": 344, 
+                "x": 1807, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto1_attack": {
+            "frame": {
+                "y": 344, 
+                "x": 1033, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_qiedao_attack": {
+            "frame": {
+                "y": 1, 
+                "x": 1276, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_yiquan_HP_1": {
+            "frame": {
+                "y": 258, 
+                "x": 173, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_HP_3": {
+            "frame": {
+                "y": 258, 
+                "x": 87, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_HP_2": {
+            "frame": {
+                "y": 258, 
+                "x": 345, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_HP_5": {
+            "frame": {
+                "y": 172, 
+                "x": 1291, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_HP_4": {
+            "frame": {
+                "y": 172, 
+                "x": 1807, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_move_3": {
+            "frame": {
+                "y": 430, 
+                "x": 1, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_move_2": {
+            "frame": {
+                "y": 430, 
+                "x": 173, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_move_1": {
+            "frame": {
+                "y": 430, 
+                "x": 431, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_move_5": {
+            "frame": {
+                "y": 258, 
+                "x": 603, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_move_4": {
+            "frame": {
+                "y": 258, 
+                "x": 431, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_lvgu_HP": {
+            "frame": {
+                "y": 172, 
+                "x": 1549, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_baohao_attack": {
+            "frame": {
+                "y": 1, 
+                "x": 681, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_tongxing_jump": {
+            "frame": {
+                "y": 1, 
+                "x": 341, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_Naruto1_HP": {
+            "frame": {
+                "y": 344, 
+                "x": 861, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_DIO_jump": {
+            "frame": {
+                "y": 344, 
+                "x": 345, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_tongxing_attack": {
+            "frame": {
+                "y": 1, 
+                "x": 86, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_DIO_attack": {
+            "frame": {
+                "y": 344, 
+                "x": 173, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_ouermaite_HP": {
+            "frame": {
+                "y": 172, 
+                "x": 1205, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_HP_4": {
+            "frame": {
+                "y": 86, 
+                "x": 1461, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_HP_5": {
+            "frame": {
+                "y": 86, 
+                "x": 1719, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_HP_1": {
+            "frame": {
+                "y": 86, 
+                "x": 687, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_HP_2": {
+            "frame": {
+                "y": 86, 
+                "x": 859, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_baohao_HP": {
+            "frame": {
+                "y": 1, 
+                "x": 511, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_kakaxi_jump": {
+            "frame": {
+                "y": 86, 
+                "x": 86, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_yiquan_attack_5": {
+            "frame": {
+                "y": 172, 
+                "x": 173, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_attack_4": {
+            "frame": {
+                "y": 172, 
+                "x": 431, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto4_HP": {
+            "frame": {
+                "y": 344, 
+                "x": 517, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_attack_1": {
+            "frame": {
+                "y": 172, 
+                "x": 1119, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_attack_3": {
+            "frame": {
+                "y": 172, 
+                "x": 259, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_attack_2": {
+            "frame": {
+                "y": 172, 
+                "x": 345, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_baohao_move": {
+            "frame": {
+                "y": 1, 
+                "x": 426, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_Naruto4_jump": {
+            "frame": {
+                "y": 258, 
+                "x": 1721, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_kakaxi_move": {
+            "frame": {
+                "y": 1, 
+                "x": 1871, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_haizei_attack_1": {
+            "frame": {
+                "y": 258, 
+                "x": 1377, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_attack_2": {
+            "frame": {
+                "y": 258, 
+                "x": 1205, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_attack_3": {
+            "frame": {
+                "y": 258, 
+                "x": 1119, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_attack_4": {
+            "frame": {
+                "y": 344, 
+                "x": 1119, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_attack_5": {
+            "frame": {
+                "y": 344, 
+                "x": 1291, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_telankesi_move": {
+            "frame": {
+                "y": 1, 
+                "x": 171, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_longzhu_move_5": {
+            "frame": {
+                "y": 172, 
+                "x": 87, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_move_4": {
+            "frame": {
+                "y": 86, 
+                "x": 429, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_move_1": {
+            "frame": {
+                "y": 86, 
+                "x": 343, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_move_3": {
+            "frame": {
+                "y": 86, 
+                "x": 601, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_move_2": {
+            "frame": {
+                "y": 86, 
+                "x": 257, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_tongxing_move": {
+            "frame": {
+                "y": 1, 
+                "x": 1, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_telankesi_HP": {
+            "frame": {
+                "y": 1, 
+                "x": 1361, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_DIO_move": {
+            "frame": {
+                "y": 344, 
+                "x": 87, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto_HP": {
+            "frame": {
+                "y": 258, 
+                "x": 775, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto_move": {
+            "frame": {
+                "y": 258, 
+                "x": 517, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_qiedao_HP": {
+            "frame": {
+                "y": 1, 
+                "x": 1191, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_ouermaite_move": {
+            "frame": {
+                "y": 258, 
+                "x": 259, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_attack_2": {
+            "frame": {
+                "y": 344, 
+                "x": 1549, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_attack_3": {
+            "frame": {
+                "y": 344, 
+                "x": 1463, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto4_move": {
+            "frame": {
+                "y": 258, 
+                "x": 861, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_attack_1": {
+            "frame": {
+                "y": 430, 
+                "x": 517, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_attack_4": {
+            "frame": {
+                "y": 344, 
+                "x": 1635, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_attack_5": {
+            "frame": {
+                "y": 344, 
+                "x": 1377, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto_attack": {
+            "frame": {
+                "y": 258, 
+                "x": 947, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_hongjiaodong_HP": {
+            "frame": {
+                "y": 1, 
+                "x": 596, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_lvgu_move": {
+            "frame": {
+                "y": 172, 
+                "x": 1377, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_qiedao_jump": {
+            "frame": {
+                "y": 1, 
+                "x": 1446, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_JOJO_move": {
+            "frame": {
+                "y": 344, 
+                "x": 947, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_baohao_jump": {
+            "frame": {
+                "y": 1, 
+                "x": 1616, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_longzhu_attack_1": {
+            "frame": {
+                "y": 86, 
+                "x": 1547, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_attack_2": {
+            "frame": {
+                "y": 86, 
+                "x": 1633, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_attack_3": {
+            "frame": {
+                "y": 86, 
+                "x": 1375, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_attack_4": {
+            "frame": {
+                "y": 86, 
+                "x": 1203, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_attack_5": {
+            "frame": {
+                "y": 86, 
+                "x": 773, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_ouermaite_attack": {
+            "frame": {
+                "y": 172, 
+                "x": 1721, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_jump_5": {
+            "frame": {
+                "y": 172, 
+                "x": 861, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto4_attack": {
+            "frame": {
+                "y": 344, 
+                "x": 1, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_HP_1": {
+            "frame": {
+                "y": 258, 
+                "x": 1033, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_HP_2": {
+            "frame": {
+                "y": 258, 
+                "x": 1291, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_HP_3": {
+            "frame": {
+                "y": 86, 
+                "x": 1289, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_HP_4": {
+            "frame": {
+                "y": 258, 
+                "x": 1463, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_HP_5": {
+            "frame": {
+                "y": 258, 
+                "x": 1635, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_ouermaite_jump": {
+            "frame": {
+                "y": 86, 
+                "x": 1805, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_move_1": {
+            "frame": {
+                "y": 430, 
+                "x": 603, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_move_3": {
+            "frame": {
+                "y": 430, 
+                "x": 1463, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_move_2": {
+            "frame": {
+                "y": 430, 
+                "x": 1205, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_move_5": {
+            "frame": {
+                "y": 430, 
+                "x": 1635, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_move_4": {
+            "frame": {
+                "y": 430, 
+                "x": 1721, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_jump_2": {
+            "frame": {
+                "y": 86, 
+                "x": 1117, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_jump_3": {
+            "frame": {
+                "y": 86, 
+                "x": 1031, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_jump_1": {
+            "frame": {
+                "y": 86, 
+                "x": 945, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_jump_4": {
+            "frame": {
+                "y": 86, 
+                "x": 515, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_longzhu_jump_5": {
+            "frame": {
+                "y": 86, 
+                "x": 171, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto_jump": {
+            "frame": {
+                "y": 258, 
+                "x": 689, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_jump_3": {
+            "frame": {
+                "y": 172, 
+                "x": 689, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_jump_4": {
+            "frame": {
+                "y": 430, 
+                "x": 345, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_jump_5": {
+            "frame": {
+                "y": 430, 
+                "x": 259, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_JOJO_attack": {
+            "frame": {
+                "y": 344, 
+                "x": 431, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_jump_1": {
+            "frame": {
+                "y": 344, 
+                "x": 1205, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_jump_2": {
+            "frame": {
+                "y": 344, 
+                "x": 1721, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_jump_3": {
+            "frame": {
+                "y": 430, 
+                "x": 87, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_HP_4": {
+            "frame": {
+                "y": 430, 
+                "x": 1291, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_HP_5": {
+            "frame": {
+                "y": 430, 
+                "x": 775, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_HP_2": {
+            "frame": {
+                "y": 430, 
+                "x": 1549, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_HP_3": {
+            "frame": {
+                "y": 430, 
+                "x": 1377, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_jump_1": {
+            "frame": {
+                "y": 172, 
+                "x": 1, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_huoying_HP_1": {
+            "frame": {
+                "y": 430, 
+                "x": 1807, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_hongjiaodong_attack": {
+            "frame": {
+                "y": 1, 
+                "x": 1021, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_yiquan_jump_4": {
+            "frame": {
+                "y": 172, 
+                "x": 947, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_yiquan_jump_2": {
+            "frame": {
+                "y": 172, 
+                "x": 517, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_tongxing_HP": {
+            "frame": {
+                "y": 1, 
+                "x": 256, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_DIO_HP": {
+            "frame": {
+                "y": 344, 
+                "x": 259, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_Naruto1_move": {
+            "frame": {
+                "y": 344, 
+                "x": 603, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_telankesi_attack": {
+            "frame": {
+                "y": 1, 
+                "x": 851, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_haizei_jump_4": {
+            "frame": {
+                "y": 430, 
+                "x": 861, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_jump_5": {
+            "frame": {
+                "y": 430, 
+                "x": 689, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_jump_2": {
+            "frame": {
+                "y": 430, 
+                "x": 947, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_jump_3": {
+            "frame": {
+                "y": 430, 
+                "x": 1119, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_haizei_jump_1": {
+            "frame": {
+                "y": 430, 
+                "x": 1033, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_JOJO_HP": {
+            "frame": {
+                "y": 258, 
+                "x": 1807, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_jojo": {
+            "frame": {
+                "y": 1, 
+                "x": 1701, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_qiedao_move": {
+            "frame": {
+                "y": 1, 
+                "x": 1531, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_telankesi_jump": {
+            "frame": {
+                "y": 1, 
+                "x": 766, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_kakaxi_attack": {
+            "frame": {
+                "y": 86, 
+                "x": 1, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_lvgu_jump": {
+            "frame": {
+                "y": 172, 
+                "x": 1635, 
+                "w": 85, 
+                "h": 85
+            }, 
+            "sourceSize": {
+                "h": 85, 
+                "w": 85
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 85, 
+                "h": 85
+            }
+        }, 
+        "g2033_Equip_hongjiaodong_jump": {
+            "frame": {
+                "y": 1, 
+                "x": 1106, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }, 
+        "g2033_Equip_kakaxi_HP": {
+            "frame": {
+                "y": 1, 
+                "x": 1786, 
+                "w": 84, 
+                "h": 84
+            }, 
+            "sourceSize": {
+                "h": 84, 
+                "w": 84
+            }, 
+            "offset": {
+                "y": 0, 
+                "x": 0, 
+                "w": 84, 
+                "h": 84
+            }
+        }
+    }, 
+    "meta": {
+        "scale": "1", 
+        "format": "RGBA8888", 
+        "type": "frame", 
+        "image": "equip_icon.png", 
+        "size": {
+            "h": 516, 
+            "w": 1956
+        }
+    }
+}

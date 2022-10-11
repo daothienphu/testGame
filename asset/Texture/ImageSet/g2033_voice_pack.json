@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "btn_0_voice01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 45,
+                "h": 45
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 45
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 45
+            }
+        },
+        "btn_0_voice02": {
+            "frame": {
+                "x": 47,
+                "y": 1,
+                "w": 46,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 46,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 46,
+                "h": 38
+            }
+        },
+        "img_0_voicebof": {
+            "frame": {
+                "x": 94,
+                "y": 1,
+                "w": 30,
+                "h": 27
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 27
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 27
+            }
+        },
+        "img_0_voicedihg": {
+            "frame": {
+                "x": 1,
+                "y": 47,
+                "w": 316,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 316,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 316,
+                "h": 37
+            }
+        },
+        "img_0_voicedik": {
+            "frame": {
+                "x": 1,
+                "y": 85,
+                "w": 350,
+                "h": 415
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 350,
+                "h": 415
+            },
+            "sourceSize": {
+                "w": 350,
+                "h": 415
+            }
+        }
+    },
+    "meta": {
+        "image": "g2033_voice_pack.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 352,
+            "h": 501
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

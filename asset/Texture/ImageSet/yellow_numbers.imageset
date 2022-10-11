@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="yellow_numbers.png" nativeVertRes="115" version="2" name="yellow_numbers" nativeHorzRes="485">
+      <Image height="55" width="49" yPos="59" name="D" xPos="44"/>
+    <Image height="55" width="35" yPos="59" name="E" xPos="94"/>
+    <Image height="40" width="39" yPos="1" name="+" xPos="1"/>
+    <Image height="18" yPos="1" xPos="67" width="18"/>
+    <Image height="14" width="25" yPos="1" name="-" xPos="41"/>
+    <Image height="56" width="39" yPos="1" name="2" xPos="157"/>
+    <Image height="57" width="38" yPos="1" name="3" xPos="197"/>
+    <Image height="57" width="41" yPos="1" name="0" xPos="86"/>
+    <Image height="56" width="28" yPos="1" name="1" xPos="128"/>
+    <Image height="57" width="40" yPos="1" name="6" xPos="319"/>
+    <Image height="55" width="40" yPos="1" name="7" xPos="360"/>
+    <Image height="55" width="44" yPos="1" name="4" xPos="236"/>
+    <Image height="56" width="37" yPos="1" name="5" xPos="281"/>
+    <Image height="55" width="45" yPos="59" name="Z" xPos="426"/>
+    <Image height="57" width="41" yPos="1" name="8" xPos="401"/>
+    <Image height="57" width="41" yPos="1" name="9" xPos="443"/>
+    <Image height="55" width="48" yPos="59" name="Y" xPos="377"/>
+    <Image height="55" width="44" yPos="59" name="T" xPos="332"/>
+    <Image height="55" width="41" yPos="59" name="P" xPos="290"/>
+    <Image height="55" width="42" yPos="59" name="B" xPos="1"/>
+    <Image height="55" width="50" yPos="59" name="N" xPos="239"/>
+    <Image height="55" width="61" yPos="59" name="M" xPos="177"/>
+    <Image height="55" width="46" yPos="59" name="K" xPos="130"/>
+</Imageset>

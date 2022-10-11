@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="goldExchange.png" nativeVertRes="952" version="2" name="goldExchange" nativeHorzRes="948">
+      <Image height="25" width="32" yPos="1" name="pro_bg" xPos="74"/>
+    <Image height="29" width="24" yPos="1" name="cube" xPos="22"/>
+    <Image height="27" width="26" yPos="1" name="gold" xPos="47"/>
+    <Image height="88" width="86" yPos="1" name="btn_cancel" xPos="442"/>
+    <Image height="41" width="41" yPos="1" name="+" xPos="146"/>
+    <Image height="234" width="946" yPos="717" name="content_bg" xPos="1"/>
+    <Image height="593" width="276" yPos="123" name="bg" xPos="153"/>
+    <Image height="41" width="43" yPos="1" name="max" xPos="230"/>
+    <Image height="110" width="99" yPos="1" name="btn_close" xPos="529"/>
+    <Image height="41" width="41" yPos="1" name="-" xPos="188"/>
+    <Image height="66" width="80" yPos="1" name="cube_icon" xPos="274"/>
+    <Image height="88" width="86" yPos="1" name="btn_confirm" xPos="355"/>
+    <Image height="48" width="128" yPos="1" name="to" xPos="629"/>
+    <Image height="182" width="151" yPos="123" name="money_bg" xPos="1"/>
+    <Image height="19" width="20" yPos="1" name="pro_ic" xPos="1"/>
+    <Image height="121" width="137" yPos="1" name="gold_icon" xPos="758"/>
+    <Image height="38" width="38" yPos="1" name="pro_tag" xPos="107"/>
+</Imageset>

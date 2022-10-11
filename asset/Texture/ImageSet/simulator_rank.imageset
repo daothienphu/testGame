@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_rank.png" nativeVertRes="696" version="2" name="simulator_rank" nativeHorzRes="936">
+      <Image height="28" width="32" yPos="1" name="lv_ic" xPos="133"/>
+    <Image height="104" width="18" yPos="73" name="rank2_bg" xPos="1"/>
+    <Image height="104" width="18" yPos="73" name="rank3_bg" xPos="39"/>
+    <Image height="622" width="224" yPos="73" name="bg" xPos="710"/>
+    <Image height="71" width="606" yPos="1" name="self_bg" xPos="329"/>
+    <Image height="28" width="32" yPos="1" name="fight_ic" xPos="1"/>
+    <Image height="118" width="162" yPos="73" name="2" xPos="221"/>
+    <Image height="28" width="32" yPos="1" name="name_ic" xPos="100"/>
+    <Image height="28" width="32" yPos="1" name="score_ic" xPos="34"/>
+    <Image height="38" width="64" yPos="1" name="ic_bg" xPos="166"/>
+    <Image height="28" width="32" yPos="1" name="rank_ic" xPos="67"/>
+    <Image height="50" width="48" yPos="1" name="info_bg1" xPos="280"/>
+    <Image height="167" width="162" yPos="73" name="top_bg" xPos="547"/>
+    <Image height="104" width="18" yPos="73" name="rank1_bg" xPos="20"/>
+    <Image height="50" width="48" yPos="1" name="info_bg2" xPos="231"/>
+    <Image height="118" width="162" yPos="73" name="3" xPos="384"/>
+    <Image height="118" width="162" yPos="73" name="1" xPos="58"/>
+</Imageset>

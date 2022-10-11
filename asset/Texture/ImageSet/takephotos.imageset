@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="takephotos.png" nativeVertRes="135" version="2" name="takephotos" nativeHorzRes="207">
+      <Image height="133" width="138" yPos="1" name="close_camera_photos" xPos="68"/>
+    <Image height="69" width="66" yPos="1" name="close_camera" xPos="1"/>
+</Imageset>

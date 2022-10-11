@@ -1,0 +1,29 @@
+<ActorTemplates>
+	<ActorTemplate IntervalTime="2" AttackScale="1" name="111.actor" MinDistance="1" SoundName2="" SoundName4="" MaxDistance="16" Originalscale="1.5 1.5 1.5" SoundName1="" TextHeight="0" SoundName3="" IsShowShadow="true" WoundBone="" Volume="0.8" Alpha="1" WoundAngle="25" Skeleton="monster_creeper.skel" SoundName5="" SoundFileNum="0" SelectedRingSize="1">
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="paxingzhe_gongji.anim" Length="0.533" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="monster_creeper_idle.anim" Length="6.933" TimeScale="1" BeginTime="0" Channel="" FadeTime="0.25" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="paxingzhe_xingzou.anim" Length="1.033" TimeScale="3" BeginTime="0" Channel="" FadeTime="0.25" Times="-1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="paxingzhe_xingzou.anim" Length="1.033" TimeScale="5" BeginTime="0" Channel="" FadeTime="0.25" Times="-1"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="body" ColorParams="1 1 1 1" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" UVSpeed="0 0" UseTransparentNearestSlice="false" MeshName="monster_creeper_body.skin" UseBloom="false" UseReflect="false" UseEdge="false" EdgeColor="1.0 0 0 1.0" type_name="monster_creeper_body" LocalBrightnessScale="1.0" DiscardAlpha="0" OverlayColor="1.0 1.0 1.0 1.0" LocalAlpha="1" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" SpecularStrength="1"/>
+				<Skin SpecularColor="1.0 1.0 1.0 1.0" UseOverlayColorReplaceMode="false" UseOriginalcolor="false" UVSpeed="0 0" UseTransparentNearestSlice="false" MeshName="monster_creeper_head.skin" UseBloom="false" UseReflect="false" UseEdge="false" EdgeColor="1.0 0 0 1.0" type_name="monster_creeper_head" LocalBrightnessScale="1.0" DiscardAlpha="0" OverlayColor="1.0 1.0 1.0 1.0" LocalAlpha="1" SpecularCoef="0.15" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" SpecularStrength="1"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="paxingzhe_gongji.anim"/>
+			<Anim Name="paxingzhe_xingzou.anim"/>
+			<Anim Name="monster_creeper_idle.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

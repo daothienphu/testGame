@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="packet_icon.png" nativeVertRes="152" version="2" name="packet_icon" nativeHorzRes="1511">
+      <Image height="150" width="150" yPos="1" name="g2033_packet_ouermaite" xPos="1058"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_jojo" xPos="454"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_lvgu" xPos="605"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_baohao" xPos="1"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_dio" xPos="152"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_mingren1" xPos="756"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_Naruto" xPos="907"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_tongxing" xPos="1360"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_qiedao" xPos="1209"/>
+    <Image height="150" width="150" yPos="1" name="g2033_packet_jiaodong" xPos="303"/>
+</Imageset>

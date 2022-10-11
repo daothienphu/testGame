@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="lottery.png" nativeVertRes="514" version="2" name="lottery" nativeHorzRes="1663">
+      <Image height="512" width="1024" yPos="1" name="bg" xPos="1"/>
+    <Image height="178" width="173" yPos="1" name="start_green" xPos="1472"/>
+    <Image height="62" width="76" yPos="1" name="check" xPos="1026"/>
+    <Image height="75" width="121" yPos="1" name="goto" xPos="1103"/>
+    <Image height="16" width="16" yPos="1" name="time_bg" xPos="1646"/>
+    <Image height="178" width="173" yPos="1" name="start" xPos="1298"/>
+    <Image height="72" width="72" yPos="1" name="mask" xPos="1225"/>
+</Imageset>

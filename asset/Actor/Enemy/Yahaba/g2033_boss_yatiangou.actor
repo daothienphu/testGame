@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2033_boss_yatiangou.actor" Originalscale="4 4 4" Skeleton="g2030_boss_wutiangou.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2030_boss_wutiangou.skin" ChangeColor = "1.0256e-08 1.34567e-08 1.26963e+19 1.70313e+25" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="attack" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2030_boss_wutiangou_gongji.anim" BeginTime = "0" Times = "1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2030_boss_wutiangou_gongji.anim" BeginTime = "0" Times = "1" Length = "1.1" FadeTime = "0.25" Channel = "" TimeScale = "0.8">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2030_boss_wutiangou_daiji.anim" BeginTime = "0" Times = "-1" Length = "1.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2030_boss_wutiangou_walk.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2030_boss_wutiangou_daiji.anim"/>
+				<Anim Name="g2030_boss_wutiangou_gongji.anim"/>
+				<Anim Name="g2030_boss_wutiangou_walk.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_get_money.png" nativeVertRes="116" version="2" name="simulator_get_money" nativeHorzRes="220">
+      <Image height="50" width="56" yPos="65" name="equip4" xPos="115"/>
+    <Image height="50" width="47" yPos="65" name="gold" xPos="172"/>
+    <Image height="16" width="16" yPos="1" name="content" xPos="145"/>
+    <Image height="50" width="56" yPos="1" name="equip1" xPos="162"/>
+    <Image height="63" width="143" yPos="1" name="btn_confirm" xPos="1"/>
+    <Image height="50" width="56" yPos="65" name="equip3" xPos="58"/>
+    <Image height="50" width="56" yPos="65" name="equip2" xPos="1"/>
+</Imageset>

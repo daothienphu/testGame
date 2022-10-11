@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="image1-0.png" nativeVertRes="1290" version="2" name="image1" nativeHorzRes="1290">
+      <Image height="256" width="256" yPos="517" name="dương g" xPos="259"/>
+    <Image height="256" width="256" yPos="517" name="pepe" xPos="1033"/>
+    <Image height="256" width="256" yPos="775" name="asmobile" xPos="1"/>
+    <Image height="256" width="256" yPos="1" name="benny" xPos="775"/>
+    <Image height="256" width="256" yPos="259" name="cho doge" xPos="259"/>
+    <Image height="256" width="256" yPos="1" name="baga" xPos="259"/>
+    <Image height="256" width="256" yPos="517" name="anhdaden1" xPos="1"/>
+    <Image height="256" width="256" yPos="775" name="embe" xPos="259"/>
+    <Image height="256" width="256" yPos="1033" name="thongsoaica" xPos="1033"/>
+    <Image height="256" width="256" yPos="1033" name="bacda" xPos="1"/>
+    <Image height="256" width="256" yPos="775" name="siro" xPos="1033"/>
+    <Image height="256" width="256" yPos="259" name="amee" xPos="1"/>
+    <Image height="256" width="256" yPos="259" name="khang" xPos="775"/>
+    <Image height="256" width="256" yPos="1033" name="mr vịt" xPos="517"/>
+    <Image height="256" width="256" yPos="1" name="ben son" xPos="517"/>
+    <Image height="256" width="256" yPos="1033" name="gautruc" xPos="259"/>
+    <Image height="256" width="256" yPos="1" name="chipu" xPos="1033"/>
+    <Image height="256" width="256" yPos="775" name="phong" xPos="775"/>
+    <Image height="256" width="256" yPos="775" name="meo" xPos="517"/>
+    <Image height="256" width="256" yPos="259" name="khonggion" xPos="1033"/>
+    <Image height="256" width="256" yPos="1" name="1977" xPos="1"/>
+    <Image height="256" width="256" yPos="517" name="linda" xPos="517"/>
+    <Image height="256" width="256" yPos="1033" name="simmy" xPos="775"/>
+    <Image height="256" width="256" yPos="517" name="noobT" xPos="775"/>
+    <Image height="256" width="256" yPos="259" name="hienho" xPos="517"/>
+</Imageset>

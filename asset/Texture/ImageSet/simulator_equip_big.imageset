@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_equip_big.png" nativeVertRes="1747" version="2" name="simulator_equip_big" nativeHorzRes="1021">
+      <Image height="619" width="1021" yPos="1128" name="bg" xPos="0"/>
+    <Image height="563" width="372" yPos="564" name="info_bg_l" xPos="0"/>
+    <Image height="72" width="207" yPos="0" name="actor_botton" xPos="0"/>
+    <Image height="508" width="331" yPos="0" name="actor_bg" xPos="208"/>
+    <Image height="481" width="524" yPos="564" name="list_bg" xPos="373"/>
+    <Image height="563" width="371" yPos="0" name="info_bg_r" xPos="540"/>
+</Imageset>

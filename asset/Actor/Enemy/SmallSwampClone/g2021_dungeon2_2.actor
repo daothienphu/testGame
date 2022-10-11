@@ -1,0 +1,47 @@
+<ActorTemplates>
+	<ActorTemplate Originalscale="2 2 2" SelectedRingSize="1" SoundName4="" WoundBone="" MinDistance="1" SoundName1="" IsShowShadow="true" Volume="0.8" IntervalTime="2" name="111.actor" Alpha="1" WoundAngle="25" SoundName2="" TextHeight="0" SoundName3="" MaxDistance="16" SoundName5="" SoundFileNum="0" AttackScale="1" Skeleton="g2021_yanhuoshijiashou.skel">
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="body" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" DefaultUse="true">
+				<Skin OverlayColor="1.0 1.0 1.0 1.0" LocalAlpha="1" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" EdgeColor="1.0 0 0 1.0" UseTransparentNearestSlice="false" UseBloom="false" MeshName="g2021_yanhuoshijiashou.skin" UVSpeed="0 0" LocalBrightnessScale="1.0" UseOverlayColorReplaceMode="false" SpecularColor="1.0 1.0 1.0 1.0" type_name="g2021_yanhuoshijiashou" UseEdge="false" UseReflect="false" DiscardAlpha="0" SpecularCoef="0.15" SpecularStrength="1.0" UseOriginalcolor="false"/>
+				<Effect>
+					<TimeScale value="1"/>
+					<SocketName value="Bip001_Spine1"/>
+					<Position_Z value="0.555173"/>
+					<Alpha value="1"/>
+					<scale value="2"/>
+					<type_name value="g2021_dungeon_huochong_body"/>
+					<Position_X value="0.0119739"/>
+					<roll value="101.502"/>
+					<FileName value="g2021_dungeon_huochong_body.effect"/>
+					<pitch value="-0.979917"/>
+					<Position_Y value="0"/>
+					<yaw value="89.8006"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill TextMode="0" Name="attack1" EnableWound="false" UserDefineTime="-2">
+				<Animation Length="1.666" Channel="" Times="1" BeginTime="0" Name="g2021_yanhuoshijiashou_gongji.anim" TimeScale="1.3" FadeTime="0.25"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill TextMode="0" Name="hurt" EnableWound="false" UserDefineTime="-2">
+				<Animation Length="1" Channel="" Times="1" BeginTime="0" Name="g2021_yanhuoshijiashou_shouji.anim" TimeScale="1" FadeTime="0.25"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill TextMode="0" Name="idle" EnableWound="false" UserDefineTime="-2">
+				<Animation Length="1.7" Channel="" Times="-1" BeginTime="0" Name="g2021_yanhuoshijiashou_daiji.anim" TimeScale="1" FadeTime="0.25"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill TextMode="0" Name="run" EnableWound="false" UserDefineTime="-2">
+				<Animation Length="1.7" Channel="" Times="-1" BeginTime="0" Name="g2021_yanhuoshijiashou_zoulu.anim" TimeScale="1.5" FadeTime="0.25"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="g2021_yanhuoshijiashou_zoulu.anim"/>
+			<Anim Name="g2021_yanhuoshijiashou_daiji.anim"/>
+			<Anim Name="g2021_yanhuoshijiashou_shouji.anim"/>
+			<Anim Name="g2021_yanhuoshijiashou_gongji.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

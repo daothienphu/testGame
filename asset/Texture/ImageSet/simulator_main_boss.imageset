@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_main_boss.png" nativeVertRes="350" version="2" name="simulator_main_boss" nativeHorzRes="771">
+      <Image height="144" width="512" yPos="1" name="boss_title" xPos="258"/>
+    <Image height="91" width="513" yPos="258" name="boss_text" xPos="1"/>
+    <Image height="256" width="256" yPos="1" name="boss_bg" xPos="1"/>
+</Imageset>

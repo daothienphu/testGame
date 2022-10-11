@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_shop.png" nativeVertRes="841" version="2" name="simulator_shop" nativeHorzRes="1698">
+      <Image height="455" width="103" yPos="272" name="info_bg" xPos="552"/>
+    <Image height="121" width="137" yPos="122" name="gold_2" xPos="388"/>
+    <Image height="121" width="137" yPos="122" name="gold_24" xPos="802"/>
+    <Image height="454" width="550" yPos="272" name="content_bg" xPos="1"/>
+    <Image height="121" width="137" yPos="122" name="gold_3" xPos="664"/>
+    <Image height="56" width="159" yPos="1" name="tab_sel" xPos="482"/>
+    <Image height="120" width="128" yPos="122" name="gold_efficiency" xPos="130"/>
+    <Image height="149" width="149" yPos="122" name="gold_bg" xPos="1329"/>
+    <Image height="120" width="128" yPos="1" name="speed_efficiency" xPos="1272"/>
+    <Image height="55" width="163" yPos="1" name="btn_buy" xPos="172"/>
+    <Image height="40" width="41" yPos="1" name="desc_bg" xPos="130"/>
+    <Image height="83" width="80" yPos="1" name="pri_bg" xPos="991"/>
+    <Image height="121" width="137" yPos="122" name="gold_30" xPos="940"/>
+    <Image height="121" width="137" yPos="122" name="gold_1" xPos="526"/>
+    <Image height="120" width="128" yPos="122" name="atk_efficiency" xPos="259"/>
+    <Image height="30" width="30" yPos="1" name="using" xPos="99"/>
+    <Image height="120" width="128" yPos="1" name="jump_efficiency" xPos="1143"/>
+    <Image height="121" width="137" yPos="122" name="gold_8" xPos="1078"/>
+    <Image height="120" width="128" yPos="1" name="atk" xPos="1401"/>
+    <Image height="138" width="112" yPos="122" name="item_bg" xPos="1216"/>
+    <Image height="58" width="61" yPos="1" name="sele" xPos="642"/>
+    <Image height="120" width="128" yPos="122" name="hp_efficiency" xPos="1"/>
+    <Image height="56" width="145" yPos="1" name="tab_nor" xPos="336"/>
+    <Image height="14" width="54" yPos="1" name="vip" xPos="1"/>
+    <Image height="62" width="286" yPos="1" name="title" xPos="704"/>
+    <Image height="22" width="42" yPos="1" name="X2" xPos="56"/>
+    <Image height="568" width="1041" yPos="272" name="bg" xPos="656"/>
+    <Image height="120" width="128" yPos="1" name="power" xPos="1530"/>
+    <Image height="86" width="70" yPos="1" name="lock" xPos="1072"/>
+</Imageset>

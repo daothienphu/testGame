@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "common_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 593,
+                "h": 422
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 593,
+                "h": 422
+            },
+            "sourceSize": {
+                "w": 593,
+                "h": 422
+            }
+        }
+    },
+    "meta": {
+        "image": "simulator_main_big.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 595,
+            "h": 424
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

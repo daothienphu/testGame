@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="simulator_boss_icon.png" nativeVertRes="232" version="2" name="simulator_boss_icon" nativeHorzRes="235">
+      <Image height="76" width="77" yPos="155" name="boss_ic7" xPos="1"/>
+    <Image height="76" width="77" yPos="155" name="boss_ic8" xPos="79"/>
+    <Image height="76" width="77" yPos="1" name="boss_ic2" xPos="79"/>
+    <Image height="76" width="77" yPos="1" name="boss_ic1" xPos="1"/>
+    <Image height="76" width="77" yPos="1" name="boss_ic3" xPos="157"/>
+    <Image height="76" width="77" yPos="78" name="boss_ic5" xPos="79"/>
+    <Image height="76" width="77" yPos="78" name="boss_ic6" xPos="157"/>
+    <Image height="76" width="77" yPos="78" name="boss_ic4" xPos="1"/>
+</Imageset>

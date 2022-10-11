@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset autoScaled="false" imagefile="g2033_voice_pack.png" nativeVertRes="501" version="2" name="g2033_voice_pack" nativeHorzRes="352">
+      <Image height="37" width="316" yPos="47" name="img_0_voicedihg" xPos="1"/>
+    <Image height="38" width="46" yPos="1" name="btn_0_voice02" xPos="47"/>
+    <Image height="27" width="30" yPos="1" name="img_0_voicebof" xPos="94"/>
+    <Image height="415" width="350" yPos="85" name="img_0_voicedik" xPos="1"/>
+    <Image height="45" width="45" yPos="1" name="btn_0_voice01" xPos="1"/>
+</Imageset>
