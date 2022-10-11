@@ -16,7 +16,6 @@ end
 
 function ClientPacketHandler:onServerStartGame()
     Debug:Log( "ClientPacketHandler:onStartGame()")
-
 end
 
 return ClientPacketHandler

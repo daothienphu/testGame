@@ -38,5 +38,21 @@ PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET, function(player, petName)
     PetManagerServer:EquipPet(player, petName)
 end)
 
+PackageHandlers:Receive(Define.PETS_EVENT.ADD_EXP, function(player, package)
+    local totalExp = package.currentExp + package.expAdded
+    local level = package.currentLevel
+    local maxExpForLvl = petData.LevelThreshold[level]
+    while totalExp > maxExpForLvl do
+        totalExp = totalExp - maxExpForLvl
+        level = level + 1
+        maxExpForLvl = petData.LevelThreshold[level]
+    end
+    local result = {
+        currentExp = totalExp,
+        currentLevel = level,
+        petName = package.petName
+    }
+    PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_EXP, result)
+end)
 
 return PetManagerServer

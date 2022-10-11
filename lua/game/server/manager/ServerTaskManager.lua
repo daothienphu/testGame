@@ -8,13 +8,13 @@ local waitTime = defaultWaitTime
 
 local timer = Timer.new(waitTime, function()
     TaskManager:StartTask()
-    waitTime = defaultWaitTime + math.random(20, 30 * 20)
+    waitTime = defaultWaitTime + math.random(30) * 20
 end)
 timer.Loop = true
 timer:Start()
 
 function TaskManager:StartTask()
-    local taskID = math.random(1, numOfTasks)
+    local taskID = math.random(numOfTasks)
     local currentTask = taskData.Tasks[taskID]
     
     PackageHandlers:SendToAllClient(Define.TASKS_EVENT.START_TASK, currentTask)
@@ -24,8 +24,13 @@ function TaskManager:StartTask()
     end):Start()
 end
 
-function TaskManager:EndTask()
+PackageHandlers:Receive(Define.TASKS_EVENT.COMPLETED_TASK, function(player, package)
 
-end
+end)
+
+PackageHandlers:Receive(Define.TASKS_EVENT.FAILED_TASK, function(player, package)
+
+end)
+
 
 return TaskManager

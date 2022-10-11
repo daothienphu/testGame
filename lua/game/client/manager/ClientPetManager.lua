@@ -47,7 +47,19 @@ function ClientPetManager:MovePet(toPosition)
 end
 
 function ClientPetManager:AddExp(petName, exp)
-
+    local info = {
+        currentExp = petInventory[petName].exp,
+        currentLevel = petInventory[petName].level,
+        expAdded = exp,
+        petName = petName
+    }
+    PackageHandlers:SendToServer(Define.PETS_EVENT.ADD_EXP, info)
 end
+
+PackageHandlers:Receive(Define.PETS_EVENT.ADD_EXP, function(player, package)
+    petInventory[package.petName].exp = package.currentExp
+    petInventory[package.petName].level = package.currentLevel
+end)
+
 
 return ClientPetManager

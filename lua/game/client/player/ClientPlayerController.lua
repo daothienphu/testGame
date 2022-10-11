@@ -15,9 +15,7 @@ function ClientPlayerController:init()
 end
 
 function ClientPlayerController:onUpdateJumpProgress(tb)
-    Debug:Log( "ClientPlayerController:onUpdateJumpProgress()"
-            , "tb: ", tb
-    )
+    Debug:Log( "ClientPlayerController:onUpdateJumpProgress()", "tb: ", tb)
 end
 
 function ClientPlayerController:onServerStartGame()
