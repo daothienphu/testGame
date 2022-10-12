@@ -13,24 +13,22 @@ function TestButtonController:ctor()
 end
 
 function TestButtonController:initUIComponents()
-    Debug:Log( "TestButtonController:initUIComponents()"
-    , "self: ", self.__name
-    , "uiName: ", self.uiName
-    , "uiRoot: ", self.uiRoot
-    )
+    --Debug:Log( "TestButtonController:initUIComponents()"
+    --, "self: ", self.__name
+    --, "uiName: ", self.uiName
+    --, "uiRoot: ", self.uiRoot
+    --)
     
     self.btn = self.uiRoot.testBtn
-    
     self.btn.onMouseClick = Lib.handler(self, self.onBtnClicked)
 end
 
 function TestButtonController:onBtnClicked()
-    print("hahahaah")
-    Debug:Log( "TestButtonController:onBtnClicked()"
-    , "self: ", self.__name
-    , "uiName: ", self.uiName
-    , "uiRoot: ", self.uiRoot
-    )
+    --Debug:Log( "TestButtonController:onBtnClicked()"
+    --, "self: ", self.__name
+    --, "uiName: ", self.uiName
+    --, "uiRoot: ", self.uiRoot
+    --)
     petManager:EquipPet("Dog")
 end
 

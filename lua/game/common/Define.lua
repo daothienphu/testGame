@@ -15,6 +15,7 @@ Define.TEAM_ID = {
 
 Define.GAME_EVENT = {
     PLAYER_ATTRIBUTE_CHANGE = "PlayerAttributeChange",
+    PLAYER_INIT_DONE = "PlayerInitDone"
 }
 
 Define.ZOMBIE_POSITION = {
@@ -39,6 +40,7 @@ Define.PETS_EVENT = {
     EQUIP_PET = "EquipPet",
     ADD_PET = "AddPet",
     ADD_EXP = "AddEXP",
+    EQUIP_PET_ITEM = "EquipPetItem"
 }
 
 Define.TASKS_EVENT = {

@@ -1,58 +1,141 @@
 local petData = require("game.data.PetData")
 require("game.common.Utils")
--- Requirements
 
--- Local vars
-local map = World.CurWorld:GetStaticMap("map001").Root
-local petsFolder
-Timer.new(20, function()
-    petsFolder = Lib.findObjectByName("Pets", map)
-end):Start()
--- End local vars
+local petStates = {
+    NO_PETS_AT_ALL = 0,
+    NO_CURRENT_PET = 1,
+    HAS_CURRENT_PET = 2
+}
+local map = World.CurWorld:getOrCreateStaticMap("map001")
+local PetInventories = {}
 
 
-local PetManagerServer = {}
-
-Event:GetEvent("OnPlayerLogin"):Bind(function(entity)
-    Timer.new(40, function()
-        PetManagerServer:AddPet(entity, "Dog")
-        PetManagerServer:EquipPet(entity, "Dog")
-    end):Start()
-end)
-
-function PetManagerServer:AddPet(player, petName)
-    local petInfo = petData:findPetInfoWithName(petName)
-    PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_PET, petInfo)
+local PetManager = {}
+--Methods
+function PetManager:SanityCheck(player, petName)
+    if PetInventories[player.name] == nil then
+        Debug:LogWarning(player.name, "does not have any pets")
+        return petStates.NO_PETS_AT_ALL
+    end
+    
+    if PetInventories[player.name][petName] == nil then
+        Debug:LogWarning(player.name, "has no pet", petName)
+        return petStates.NO_CURRENT_PET
+    end
+    
+    return petStates.HAS_CURRENT_PET
 end
 
-PackageHandlers:Receive(Define.PETS_EVENT.ADD_PET, function(player, petName)
-    PetManagerServer:AddPet(player, petName)
-end)
-
-function PetManagerServer:EquipPet(player, petName)
-    --local petInfo = petData:findPetInfoWithName(petName)
-    PackageHandlers:SendToClient(player, Define.PETS_EVENT.EQUIP_PET, petName)
+function PetManager:AddPet(player, petName)
+    if PetManager:SanityCheck(player, petName) == petStates.NO_PETS_AT_ALL then
+        PetInventories[player.name] = {}
+    end
+    
+    if PetInventories[player.name][petName] == nil then
+        local petInfo = petData:findPetInfoWithName(petName)
+        if petInfo then
+            PetInventories[player.name][petName] = {
+                name = petInfo.name,
+                cfgName = petInfo.cfgName,
+                pos = petInfo.pos,
+                equipped = false,
+                exp = 0,
+                level = 1
+            }
+            Debug:Log("Added pet", petName, "for player", player.name)
+        end
+    else
+        Debug:LogWarning("pet", petName, "existed for player", player.name)
+        Debug:LogWarning("PetManagerServer:AddPet()")
+    end
+end
+function PetManager:EquipPet(player, petName)
+    if PetManager:SanityCheck(player, petName) ~= petStates.HAS_CURRENT_PET then
+        Debug:LogWarning(player.name, "has no pet", petName)
+        return
+    end
+    
+    if PetInventories[player.name][petName].equipped == true then
+        PetManager:UnEquipPet(player, petName)
+        Debug:Log("Un-equipped pet", petName, "for player", player.name)
+        return
+    end
+    
+    --To be sure
+    map = World.CurWorld:getOrCreateStaticMap("map001")
+    
+    local petInfo = PetInventories[player.name][petName]
+    local createParams = petInfo
+    createParams.map = map
+    
+    EntityServer.Create(createParams, function(entity)
+        Debug:Log("Creating entity")
+        local control = entity:getAIControl()
+        if control then
+            entity:setFollowTarget(player)
+        else
+            Debug:LogWarning("no AI control")
+            Debug:LogWarning("PetManagerServer:EquipPet()")
+        end
+        petInfo.entity = entity
+    end)
+    
+    petInfo.equipped = true
+    Debug:Log("Equipped pet", petName, "for player", player.name)
+end
+function PetManager:UnEquipPet(player, petName)
+    local petInfo = PetInventories[player.name][petName]
+    petInfo.equipped = false
+    petInfo.entity:Destroy()
 end
 
-PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET, function(player, petName)
-    PetManagerServer:EquipPet(player, petName)
-end)
-
-PackageHandlers:Receive(Define.PETS_EVENT.ADD_EXP, function(player, package)
-    local totalExp = package.currentExp + package.expAdded
-    local level = package.currentLevel
+function PetManager:AddEXP(player, petName, expToAdd)
+    if PetManager:SanityCheck(player, petName) ~= petStates.HAS_CURRENT_PET then
+        Debug:LogWarning(player.name, "has no pet", petName)
+        return
+    end
+    
+    local petInfo = PetInventories[player.name][petName]
+    local totalExp = petInfo.exp + expToAdd
+    local level = petInfo.level
+    
     local maxExpForLvl = petData.LevelThreshold[level]
     while totalExp > maxExpForLvl do
         totalExp = totalExp - maxExpForLvl
         level = level + 1
         maxExpForLvl = petData.LevelThreshold[level]
     end
-    local result = {
-        currentExp = totalExp,
-        currentLevel = level,
-        petName = package.petName
-    }
-    PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_EXP, result)
+    
+    petInfo.exp = totalExp
+    petInfo.level = level
+end
+function PetManager:DeduceEXP(player, petName)
+    if PetManager:SanityCheck(player, petName) ~= petStates.HAS_CURRENT_PET then
+        Debug:LogWarning(player.name, "has no pet", petName)
+        return
+    end
+    
+    local petInfo = PetInventories[player.name][petName]
+    petInfo.exp = 0
+end
+--End methods
+
+--Event Handlers
+PackageHandlers:Receive(Define.GAME_EVENT.PLAYER_INIT_DONE, function(player)
+    Timer.new(40, function()
+        PetManager:AddPet(player, "Dog")
+        --PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_PET, {petName = "Dog"})
+        PetManager:EquipPet(player, "Dog")
+        --PackageHandlers:SendToClient(player, Define.PETS_EVENT.EQUIP_PET, {petName = "Dog"})
+    end):Start()
 end)
 
-return PetManagerServer
+PackageHandlers:Receive(Define.PETS_EVENT.ADD_PET, function(player, package)
+    PetManager:AddPet(player, package)
+end)
+PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET, function(player, package)
+    PetManager:EquipPet(player, package)
+end)
+--end event handlers
+
+return PetManager

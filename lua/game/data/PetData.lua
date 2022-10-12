@@ -17,13 +17,11 @@ PetData.LevelThreshold = {
 
 PetData.AllPets = {
     Dog = {
-        uniqueKey = "Dog",
         name = "Dog",
         cfgName = "myplugin/petDog",
-        pos = Lib.v3(1, 5, 0)
+        pos = Lib.v3(1, 1, 0)
     },
     Cat = {
-        uniqueKey = "Cat",
         name = "Cat",
         cfgName = nil,
         pos = Lib.v3(2, 5, 0)

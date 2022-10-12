@@ -25,7 +25,7 @@ PackageHandlers:Receive(Define.TASKS_EVENT.END_TASK, function(player, package)
 end)
 
 PackageHandlers:SendToServer(Define.TASKS_EVENT.COMPLETED_TASK, function(player, package)
-
+    
 end)
 
 return TaskManager

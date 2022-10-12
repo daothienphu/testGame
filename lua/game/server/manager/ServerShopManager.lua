@@ -1,0 +1,6 @@
+local ShopManager = {}
+
+
+
+
+return ShopManager

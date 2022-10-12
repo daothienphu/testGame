@@ -1,6 +1,7 @@
 {
   "automatch": false,
   "bagCap": 9,
+  "batchType": "Dynamic",
   "cameraCfg": {
     "canSwitchView": false,
     "defaultPitch": 0,
@@ -19,9 +20,9 @@
         "lockSlideScreen": false,
         "offset": {
           "__OBJ_TYPE": "Vector3",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "viewFovAngle": 75
       },
@@ -32,9 +33,9 @@
         "lockSlideScreen": false,
         "offset": {
           "__OBJ_TYPE": "Vector3",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "viewFovAngle": 75
       },
@@ -46,9 +47,9 @@
         "lockSlideScreen": false,
         "offset": {
           "__OBJ_TYPE": "Vector3",
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "viewFovAngle": 75
       },
@@ -68,20 +69,24 @@
     ]
   },
   "canJoinMidway": true,
+  "collisionMatrix": [
+    "1"
+  ],
   "defaultMap": "map001",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
   },
   "editorFovAngle": 65,
+  "enableBakeLight": true,
   "enableNewLighting": false,
   "engineDefUIEnable": {
     "actionControl": true,
     "actionControlMode": "flexibleDragControl",
-    "appMainRole": true,
+    "appMainRole": false,
     "chat": true,
-    "playerinfo": true,
-    "shortcutBar": true,
+    "playerinfo": false,
+    "shortcutBar": false,
     "toolbar": true
   },
   "forcePickBlock": true,
@@ -123,6 +128,7 @@
     "useGroup": "_imagesets_"
   },
   "maxPlayers": 30,
+  "meshPartStaticMergeRender": true,
   "minPlayers": 1,
   "moveStateConfig": {
     "isShow": false
@@ -130,8 +136,9 @@
   "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 1666.6666666667,
-  "oneDayTime": 600.0,
+  "nowTime": 10666.6666666667,
+  "oneDayTime": 600,
+  "partGameStaticBatch": true,
   "personalSettingUI": {
     "controlMode": true,
     "guiSize": false,
@@ -174,6 +181,7 @@
   },
   "replay": false,
   "reportTime": 1200,
+  "screenSpaceCull": false,
   "skillJack": {
     "AJackArea": [
       [
@@ -273,6 +281,8 @@
       ]
     ]
   },
+  "useHalfImageSize": true,
+  "useNewCollisionFiltering": true,
   "useNewFirstViewer": true,
   "useNewQuadConfig": true,
   "useNewUI": true,
