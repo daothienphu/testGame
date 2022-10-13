@@ -9,6 +9,7 @@ local petStates = {
 local map = World.CurWorld:getOrCreateStaticMap("map001")
 local PetInventories = {}
 
+local equippedCount = 0
 
 local PetManager = {}
 --Methods
@@ -26,11 +27,10 @@ function PetManager:SanityCheck(player, petName)
     return petStates.HAS_CURRENT_PET
 end
 
-function PetManager:AddPet(player, petName)
+function PetManager:AddPet(player, petName, isFirstPet)
     if PetManager:SanityCheck(player, petName) == petStates.NO_PETS_AT_ALL then
         PetInventories[player.name] = {}
     end
-    
     if PetInventories[player.name][petName] == nil then
         local petInfo = petData:findPetInfoWithName(petName)
         if petInfo then
@@ -43,13 +43,16 @@ function PetManager:AddPet(player, petName)
                 level = 1
             }
             Debug:Log("Added pet", petName, "for player", player.name)
+            if not isFirstPet then
+                PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_PET_OK, {petName = petName})
+            end
         end
     else
         Debug:LogWarning("pet", petName, "existed for player", player.name)
         Debug:LogWarning("PetManagerServer:AddPet()")
     end
 end
-function PetManager:EquipPet(player, petName)
+function PetManager:EquipPet(player, petName, firstPet)
     if PetManager:SanityCheck(player, petName) ~= petStates.HAS_CURRENT_PET then
         Debug:LogWarning(player.name, "has no pet", petName)
         return
@@ -58,35 +61,52 @@ function PetManager:EquipPet(player, petName)
     if PetInventories[player.name][petName].equipped == true then
         PetManager:UnEquipPet(player, petName)
         Debug:Log("Un-equipped pet", petName, "for player", player.name)
+        if not firstPet then
+            PackageHandlers:SendToClient(player, Define.PETS_EVENT.EQUIP_PET_OK, {petName = petName})
+        end
         return
     end
     
-    --To be sure
-    map = World.CurWorld:getOrCreateStaticMap("map001")
-    
-    local petInfo = PetInventories[player.name][petName]
-    local createParams = petInfo
-    createParams.map = map
-    
-    EntityServer.Create(createParams, function(entity)
-        Debug:Log("Creating entity")
-        local control = entity:getAIControl()
-        if control then
-            entity:setFollowTarget(player)
-        else
-            Debug:LogWarning("no AI control")
-            Debug:LogWarning("PetManagerServer:EquipPet()")
+    if equippedCount < 2 then
+        --To be sure
+        map = World.CurWorld:getOrCreateStaticMap("map001")
+        
+        local petInfo = PetInventories[player.name][petName]
+        local createParams = petInfo
+        createParams.map = map
+        
+        EntityServer.Create(createParams, function(entity)
+            Debug:Log("Creating entity")
+            local control = entity:getAIControl()
+            if control then
+                entity:setFollowTarget(player)
+            else
+                Debug:LogWarning("no AI control")
+                Debug:LogWarning("PetManagerServer:EquipPet()")
+            end
+            petInfo.entity = entity
+        end)
+        
+        petInfo.equipped = true
+        Debug:Log("Equipped pet", petName, "for player", player.name)
+        
+        if not firstPet then
+            PackageHandlers:SendToClient(player, Define.PETS_EVENT.EQUIP_PET_OK, {petName = petName})
         end
-        petInfo.entity = entity
-    end)
-    
-    petInfo.equipped = true
-    Debug:Log("Equipped pet", petName, "for player", player.name)
+        equippedCount = equippedCount + 1
+        if equippedCount == 2 then
+            PackageHandlers:SendToClient(player, Define.PETS_EVENT.DISABLE_EQUIP_PETS)
+        end
+    end
 end
 function PetManager:UnEquipPet(player, petName)
     local petInfo = PetInventories[player.name][petName]
     petInfo.equipped = false
     petInfo.entity:Destroy()
+    if equippedCount == 2 then
+        PackageHandlers:SendToClient(player, Define.PETS_EVENT.ENABLE_EQUIP_PETS)
+    end
+    equippedCount = equippedCount - 1
 end
 
 function PetManager:AddEXP(player, petName, expToAdd)
@@ -123,19 +143,28 @@ end
 --Event Handlers
 PackageHandlers:Receive(Define.GAME_EVENT.PLAYER_INIT_DONE, function(player)
     Timer.new(40, function()
-        PetManager:AddPet(player, "Dog")
-        --PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_PET, {petName = "Dog"})
-        PetManager:EquipPet(player, "Dog")
-        --PackageHandlers:SendToClient(player, Define.PETS_EVENT.EQUIP_PET, {petName = "Dog"})
+        local data = {}
+        for _, v in pairs(petData.AllPets) do
+            data[v.name] = {
+                name = v.name,
+                price = v.price
+            }
+        end
+        PackageHandlers:SendToClient(player, Define.PETS_EVENT.PET_SHOP_DATA, data)
+        PetManager:AddPet(player, "Dog", true)
+        PetManager:EquipPet(player, "Dog", true)
+        PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_FIRST_PET, {petName = "Dog"})
     end):Start()
 end)
 
 PackageHandlers:Receive(Define.PETS_EVENT.ADD_PET, function(player, package)
-    PetManager:AddPet(player, package)
+    Debug:Log("Server receive add pet")
+    PetManager:AddPet(player, package, false)
 end)
 PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET, function(player, package)
-    PetManager:EquipPet(player, package)
+    PetManager:EquipPet(player, package, false)
 end)
+
 --end event handlers
 
 return PetManager

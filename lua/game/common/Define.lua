@@ -40,7 +40,14 @@ Define.PETS_EVENT = {
     EQUIP_PET = "EquipPet",
     ADD_PET = "AddPet",
     ADD_EXP = "AddEXP",
-    EQUIP_PET_ITEM = "EquipPetItem"
+    EQUIP_PET_ITEM = "EquipPetItem",
+    ADD_FIRST_PET = "AddFirstPet",
+    PET_SHOP_DATA = "GetPetShopData",
+    BUY_PET = "BuyPet",
+    ADD_PET_OK = "AddPetOk",
+    EQUIP_PET_OK = "EquipPetOk",
+    DISABLE_EQUIP_PETS = "DisableEquipPet",
+    ENABLE_EQUIP_PETS = "EnableEquipPet",
 }
 
 Define.TASKS_EVENT = {

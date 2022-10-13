@@ -300,7 +300,7 @@
         "isVisibleInEditor": "true",
         "name": "PetShop",
         "needSync": "true",
-        "position": "x:5 y:0.999902725219727 z:5",
+        "position": "x:5 y:0.999902725219727 z:-5.57300090789795",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
         "selectable": "true",

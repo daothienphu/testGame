@@ -12,15 +12,15 @@ end
 function ClientPlayerController:init()
     Debug:Log( "ClientPlayerController:init()")
     Lib.subscribeEvent(Event.EVENT_UPDATE_JUMP_PROGRESS, Lib.handler(self, self.onUpdateJumpProgress))
+    Lib.subcribeEvent(Event.EVENT_GAME_START, Lib.handler(self, self.onServerStartGame()))
 end
 
 function ClientPlayerController:onUpdateJumpProgress(tb)
-    Debug:Log( "ClientPlayerController:onUpdateJumpProgress()", "tb: ", tb)
+    --Debug:Log( "ClientPlayerController:onUpdateJumpProgress()", "tb: ", tb)
 end
 
 function ClientPlayerController:onServerStartGame()
-    Debug:Log( "ClientPlayerController:onStartGame()")
-
+    --Debug:Log( "ClientPlayerController:onStartGame()")
 end
 
 return ClientPlayerController

@@ -1,5 +1,4 @@
 local BaseUIController = require("base.ui.BaseUIController")
-local petManager = require("game.client.manager.ClientPetManager")
 
 ---@class InventoryUIController
 local InventoryUIController = class("InventoryUIController", BaseUIController)
@@ -16,79 +15,30 @@ function InventoryUIController:ctor()
 end
 
 function InventoryUIController:initUIComponents()
-    --self.root = self.uiRoot
-    --petSlots = {
-    --    pet1 =
-    --    {
-    --        ui = self.root.Pet1,
-    --        empty = true,
-    --        equipped = false,
-    --    },
-    --    pet2 =
-    --    {
-    --        ui = self.root.Pet2,
-    --        empty = true,
-    --        equipped = false,
-    --    },
-    --    pet3 =
-    --    {
-    --        ui = self.root.Pet3,
-    --        empty = true,
-    --        equipped = false,
-    --    },
-    --    pet4 =
-    --    {
-    --        ui = self.root.Pet4,
-    --        empty = true,
-    --        equipped = false,
-    --    },
-    --    pet5 =
-    --    {
-    --        ui = self.root.Pet5,
-    --        empty = true,
-    --        equipped = false,
-    --    },
-    --}
-    --
-    --InventoryUIController:HideAllInventorySlots()
-    --InventoryUIController:SetUpButtonHandlers()
+    self.root = self.uiRoot
+    for i=1, 10 do
+        petSlots["Pet"..i] = {
+            ui = self.root["Pet"..i],
+            empty = true,
+            equipped = false
+        }
+    end
+    
+    InventoryUIController:HideAllInventorySlots()
+    InventoryUIController:SetUpButtonHandlers()
     --self.btn.onMouseClick = Lib.handler(self, self.onBtnClicked)
 end
 
-function InventoryUIController:FindEmptySlots()
-    for _, v in pairs(petSlots) do
-        if v.empty == true then
-            return v
-        end
-    end
-    return -1
-end
+--Utils
 function InventoryUIController:FindIDWithPetName(petName)
     for i, v in pairs(petSlots) do
-        if v.ui.PetName == petName then
+        if v.ui.PetName.Text == petName then
             return i
         end
     end
-    return
+    return nil
 end
---function InventoryUIController:AddPetToSlots(petName)
---    local ID = InventoryUIController:FindIDWithPetName(petName)
---    InventoryUIController:UnHideInventorySlot(ID)
---    petSlots[ID].ui.PetName = petName
---end
 
-----For adding the first dog only
---function InventoryUIController:EquipPet(petName)
---    local ID = InventoryUIController:FindIDWithPetName(petName)
---    petSlots[ID].equipped = true
---    petSlots[ID].ui.Button.Text = "Equip"
---end
-
-function InventoryUIController:SetUpButtonHandlers()
-    for i, v in pairs(petSlots) do
-        v.ui.Button.onMouseClick = Lib.handler(self, self.onEquipButtonClicked, i)
-    end
-end
 function InventoryUIController:HideAllInventorySlots()
     Debug:Log("Searching all slots")
     for _, v in pairs(petSlots) do
@@ -99,25 +49,89 @@ function InventoryUIController:HideAllInventorySlots()
     end
 end
 function InventoryUIController:UnHideInventorySlot(ID)
+    Debug:Log("Unhiding", ID)
     if petSlots[ID] ~= nil and petSlots[ID].empty == true then
-        petSlots[ID].Button.Alpha = 1
-        petSlots[ID].Viewport.Alpha = 1
-        petSlots[ID].PetName.Alpha = 1
+        petSlots[ID].ui.Button.Alpha = 1
+        petSlots[ID].ui.Viewport.Alpha = 1
+        petSlots[ID].ui.PetName.Alpha = 1
+    end
+end
+function InventoryUIController:SetUpButtonHandlers()
+    for _, v in pairs(petSlots) do
+        v.ui.Button.onMouseClick = Lib.handler(self, self.onEquipButtonClicked)
+    end
+end
+function InventoryUIController:FindEmptySlots()
+    for i, v in pairs(petSlots) do
+        if v.empty == true then
+            return i
+        end
+    end
+    return -1
+end
+
+--For adding the first dog only
+function InventoryUIController:AddPetToSlots(petName)
+    local ID = InventoryUIController:FindEmptySlots()
+    Debug:Log(ID)
+    
+    if ID ~= -1 and petSlots[ID] ~= nil then
+        InventoryUIController:UnHideInventorySlot(ID)
         petSlots[ID].empty = false
+        petSlots[ID].equipped = false
+        petSlots[ID].ui.PetName.Text = petName
+        petSlots[ID].ui.Button.Text = "Equip"
+        Debug:Log("adding to", petSlots[ID])
     end
 end
 
-function InventoryUIController:onEquipButtonClicked(ID)
+--Handler
+Event:RegisterCustomEvent("CLIENT_ADD_FIRST_PET")
+Event:GetEvent("CLIENT_ADD_FIRST_PET"):Bind(function(petName)
+    local ID = InventoryUIController:FindEmptySlots()
+    
+    if ID ~= -1 and petSlots[ID] ~= nil then
+        InventoryUIController:UnHideInventorySlot(ID)
+        petSlots[ID].empty = false
+        petSlots[ID].equipped = true
+        petSlots[ID].ui.PetName.Text = petName
+        petSlots[ID].ui.Button.Text = "Unequip"
+        Debug:Log("adding to", petSlots[ID])
+    end
+end)
+
+function InventoryUIController:onEquipButtonClicked(ctx)
+    local ID = ctx.Parent.__windowName
     if petSlots[ID] ~= nil and petSlots[ID].empty == false then
-        if petSlots[ID].equipped == true then
-            petSlots[ID].equipped = false
-            petSlots[ID].ui.Button.Text = "Unequip"
-        else
-            petSlots[ID].equipped = true
-            petSlots[ID].ui.Button.Text = "Equip"
-        end
-        petManager:EquipPet(petSlots[ID].petName)
+        Event:GetEvent("CLIENT_EQUIP_PET"):Emit(petSlots[ID].ui.PetName.Text)
     end
 end
+
+PackageHandlers:Receive(Define.PETS_EVENT.DISABLE_EQUIP_PETS, function()
+    for _, v in pairs(petSlots) do
+        if v.equipped == false then
+            v.ui.Button.Disabled = true
+        end
+    end
+end)
+
+PackageHandlers:Receive(Define.PETS_EVENT.ENABLE_EQUIP_PETS, function()
+    for _, v in pairs(petSlots) do
+        v.ui.Button.Disabled = false
+    end
+end)
+
+PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET_OK, function(player, package)
+    local ID = InventoryUIController:FindIDWithPetName(package.petName)
+    if petSlots[ID].equipped == true then
+        petSlots[ID].equipped = false
+        petSlots[ID].ui.Button.Text = "Equip"
+        Debug:Log("unequip")
+    else
+        petSlots[ID].equipped = true
+        petSlots[ID].ui.Button.Text = "Unequip"
+        Debug:Log("equip")
+    end
+end)
 
 return InventoryUIController

@@ -19,7 +19,8 @@ PackageHandlers:Receive(Define.BASE_PACKET_TYPE.PLAYER_ENTER_MAP, function()
     Global.GameUIManager:openWindow(Define.GAME_UI_DEFINE.CLICK_DISPLAY_UI.KEY)
     Global.GameUIManager:openWindow(Define.GAME_UI_DEFINE.DEBUG_UI.KEY)
     --Global.GameUIManager:openWindow(Define.GAME_UI_DEFINE.TEST_UI.KEY)
-    Global.GameUIManager:openWindow(Define.GAME_UI_DEFINE.INVENTORY_UI.KEY)
+    Global.GameUIManager:openWindow(Define.GAME_UI_DEFINE.PET_INVENTORY_UI.KEY)
+    Global.GameUIManager:openWindow(Define.GAME_UI_DEFINE.PET_SHOP_UI.KEY)
 
     --Begin game
     Global.ClientLogicManager:beginGame()

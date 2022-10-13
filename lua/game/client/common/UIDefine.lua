@@ -19,9 +19,14 @@ Define.GAME_UI_DEFINE = {
         CLASS = require("game.client.ui.TestButtonController"),
         UI_ROOT = "UI/TestUI"
     },
-    INVENTORY_UI = {
-        KEY = "INVENTORY_UI",
+    PET_INVENTORY_UI = {
+        KEY = "PET_INVENTORY_UI",
         CLASS = require("game.client.ui.InventoryUIController"),
-        UI_ROOT = "UI/InventoryUI"
+        UI_ROOT = "UI/PetInventoryUI"
+    },
+    PET_SHOP_UI = {
+        KEY = "PET_SHOP_UI",
+        CLASS = require("game.client.ui.PetShopUIController"),
+        UI_ROOT = "UI/ShopUI"
     }
 }
