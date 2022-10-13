@@ -126,11 +126,11 @@ PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET_OK, function(player, package
     if petSlots[ID].equipped == true then
         petSlots[ID].equipped = false
         petSlots[ID].ui.Button.Text = "Equip"
-        Debug:Log("unequip")
+        Debug:Log("Unequip")
     else
         petSlots[ID].equipped = true
         petSlots[ID].ui.Button.Text = "Unequip"
-        Debug:Log("equip")
+        Debug:Log("Equip")
     end
 end)
 

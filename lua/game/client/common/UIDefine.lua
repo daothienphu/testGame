@@ -28,5 +28,10 @@ Define.GAME_UI_DEFINE = {
         KEY = "PET_SHOP_UI",
         CLASS = require("game.client.ui.PetShopUIController"),
         UI_ROOT = "UI/ShopUI"
-    }
+    },
+   COIN_UI = {
+        KEY = "COIN_UI",
+        CLASS = require("game.client.ui.CoinUIController"),
+        UI_ROOT = "UI/CoinUI"
+    },
 }

@@ -1,15 +1,15 @@
     <GUILayout version="4">
         <Window type="DefaultWindow" name="Root">
-            <Property value="{{0,0},{0,0},{0,400},{0,300}}" name="Area">
+            <Property value="{{0,0},{0,0},{1,0},{1,0}}" name="Area">
 
             </Property>
             <Property value="{{999,0},{999,0}}" name="MaxSize">
 
             </Property>
-            <Property value="Left" name="HorizontalAlignment">
+            <Property value="Centre" name="HorizontalAlignment">
 
             </Property>
-            <Property value="Top" name="VerticalAlignment">
+            <Property value="Centre" name="VerticalAlignment">
 
             </Property>
             <Property value="1" name="Volume">
