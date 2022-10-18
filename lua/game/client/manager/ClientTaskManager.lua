@@ -3,29 +3,24 @@ local TaskManager = {}
 local onGoingTasks = {}
 
 PackageHandlers:Receive(Define.TASKS_EVENT.START_TASK, function(player, package)
-    local collisionCounter = 0
-    local key = package.name + tostring(collisionCounter)
-    while onGoingTasks[key] ~= nil do
-        collisionCounter = collisionCounter + 1
-        key = package.name + tostring(collisionCounter)
-    end
-    onGoingTasks[key] = {
+    onGoingTasks[package.ID] = {
         exp = package.exp,
         coin = package.coin,
         time = package.time,
         name = package.name,
         desc = package.desc,
-        amount = package.amount,
+        requirement = package.requirement,
         completionCounter = 0
     }
 end)
 
 PackageHandlers:Receive(Define.TASKS_EVENT.END_TASK, function(player, package)
-
+    if onGoingTasks[package.ID] ~= nil then
+        onGoingTasks[package.ID] = nil
+    end
 end)
 
-PackageHandlers:SendToServer(Define.TASKS_EVENT.COMPLETED_TASK, function(player, package)
-    
+Timer.new(100, function()
+    PackageHandlers.SendToServer(Define.TASKS_EVENT.COMPLETED_TASK, onGoingTasks[1].ID)
 end)
-
 return TaskManager

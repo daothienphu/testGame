@@ -2,6 +2,7 @@ local BaseManager = require("base.manager.BaseManager")
 ---@class ClientLogicManager: BaseManager
 local ClientLogicManager = class("ClientLogicManager", BaseManager)
 require("game.client.manager.ClientPetManager")
+require("game.client.manager.ClientTaskManager")
 local map
 
 function ClientLogicManager:create()  
@@ -45,6 +46,12 @@ function ClientLogicManager:FireRayCast()
         end
     end
 
+    --local resultList2 = map:RayCast(startPos, direction, 1, true)
+    --for i, v in pairs(resultList) do
+    --    if v.Instance ~= nil and v.Instance._cfg ~= nil and v.Instance._cfg.name == "entity_coin" then
+    --        PackageHandlers:SendToServer(Define.COIN_EVENT.ADD_COIN)
+    --    end
+    --end
 end
 
 function ClientLogicManager:displayPlayerPosition()

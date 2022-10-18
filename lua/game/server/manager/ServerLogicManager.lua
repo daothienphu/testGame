@@ -1,5 +1,6 @@
 local BaseManager = require("base.manager.BaseManager")
 local PetManagerServer = require("game.server.manager.ServerPetManager")
+local TaskManagerServer = require("game.server.manager.ServerTaskManager")
 ---@class ServerLogicManager: BaseManager
 local ServerLogicManager = class("ServerLogicManager", BaseManager)
 

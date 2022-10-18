@@ -23,9 +23,9 @@ TaskData.Tasks = {
         exp = 30,
         coin = 30,
         time = 300,
-        requirement = 100,
-        name = "Racer",
-        desc = "Complete the obstacle course in time."
+        requirement = 10,
+        name = "Spender",
+        desc = "Spend coins."
     }
 }
 

@@ -11,18 +11,18 @@ function CoinUIController:ctor()
     Debug:Log( "CoinUIController:ctor()")
 end
 
-function CoinUIController:initUIComponents()
+local coinDisplay
 
-    ---@type CEGUIStaticText
-    self.txtDebug = self.uiRoot.txtDebug
-    
-    ---@type CEGUIButton
-    self.btnDebug1 = self.uiRoot.btnDebug1
-    
-    self.btnDebug1.onMouseClick = Lib.handler(self, self.onBtnDebug1Clicked)
+function CoinUIController:initUIComponents()
+    Debug:Log("bbbbbbbbbbbbbb")
+
+    coinDisplay = self.uiRoot.Image.Coin
+    Debug:Log(coinDisplay)
 end
 
-
-
+PackageHandlers:Receive(Define.COIN_EVENT.DISPLAY_COIN, function(player, package)
+    Debug:Log("aaaaaaaaaaaaaaaaaa")
+    coinDisplay.Text = "$"..package.coin
+end)
 
 return CoinUIController

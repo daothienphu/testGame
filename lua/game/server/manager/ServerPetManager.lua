@@ -1,5 +1,6 @@
 local petData = require("game.data.PetData")
 require("game.common.Utils")
+local coinManager = require("game.server.manager.ServerCoinManager")
 
 local petStates = {
     NO_PETS_AT_ALL = 0,
@@ -52,6 +53,7 @@ function PetManager:AddPet(player, petName, isFirstPet)
         Debug:LogWarning("PetManagerServer:AddPet()")
     end
 end
+
 function PetManager:EquipPet(player, petName, firstPet)
     if PetManager:SanityCheck(player, petName) ~= petStates.HAS_CURRENT_PET then
         Debug:LogWarning(player.name, "has no pet", petName)
@@ -85,6 +87,7 @@ function PetManager:EquipPet(player, petName, firstPet)
                 Debug:LogWarning("PetManagerServer:EquipPet()")
             end
             petInfo.entity = entity
+            entity:setHp(1)
         end)
         
         petInfo.equipped = true
@@ -99,6 +102,7 @@ function PetManager:EquipPet(player, petName, firstPet)
         end
     end
 end
+
 function PetManager:UnEquipPet(player, petName)
     local petInfo = PetInventories[player.name][petName]
     petInfo.equipped = false
@@ -129,6 +133,7 @@ function PetManager:AddEXP(player, petName, expToAdd)
     petInfo.exp = totalExp
     petInfo.level = level
 end
+
 function PetManager:DeduceEXP(player, petName)
     if PetManager:SanityCheck(player, petName) ~= petStates.HAS_CURRENT_PET then
         Debug:LogWarning(player.name, "has no pet", petName)
@@ -138,6 +143,19 @@ function PetManager:DeduceEXP(player, petName)
     local petInfo = PetInventories[player.name][petName]
     petInfo.exp = 0
 end
+
+function PetManager:GetEquippedPets()
+    local petNames = {}
+    for i, v in pairs(PetInventories) do
+        if v.equipped then
+            table.insert(petNames, i)
+        end
+    end
+    Debug:Log("equipped Pets")
+    Debug:Log(petNames)
+    return petNames
+end
+
 --End methods
 
 --Event Handlers
@@ -154,6 +172,7 @@ PackageHandlers:Receive(Define.GAME_EVENT.PLAYER_INIT_DONE, function(player)
         PetManager:AddPet(player, "Dog", true)
         PetManager:EquipPet(player, "Dog", true)
         PackageHandlers:SendToClient(player, Define.PETS_EVENT.ADD_FIRST_PET, {petName = "Dog"})
+        coinManager:DisplayCoin(player)
     end):Start()
 end)
 
@@ -163,6 +182,20 @@ PackageHandlers:Receive(Define.PETS_EVENT.ADD_PET, function(player, package)
 end)
 PackageHandlers:Receive(Define.PETS_EVENT.EQUIP_PET, function(player, package)
     PetManager:EquipPet(player, package, false)
+end)
+
+PackageHandlers:Receive(Define.PETS_EVENT.BUY_PET, function(player, package)
+    local coins = coinManager:GetCurrentCoin()
+    local petInfo = petData:findPetInfoWithName(package.petName)
+    Debug:Log("got buy pet")
+    Debug:Log(package)
+    Debug:Log(coins)
+    Debug:Log(petInfo)
+    if petInfo ~= nil and petInfo.price <= coins then
+        coinManager:UpdateCoin(coins - petInfo.price)
+        coinManager:DisplayCoin(player)
+        PackageHandlers:SendToClient(player, "BuyPetOK", {petName = package.petName})
+    end
 end)
 
 --end event handlers

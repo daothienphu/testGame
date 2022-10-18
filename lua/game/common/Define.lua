@@ -57,3 +57,8 @@ Define.TASKS_EVENT = {
     FAILED_TASK = "FailedTask",
     COMPLETED_TASK = "CompletedTask",
 }
+
+Define.COIN_EVENT = {
+    DISPLAY_COIN = "DisplayCoin",
+    ADD_COIN = "AddCoin"
+}
